@@ -1,0 +1,56 @@
+//Faq's
+.faq {
+    @include displayFlex(column, center, center);
+    gap: 4rem;
+    height: 100vh;
+    width: 100%;
+    padding: 4rem;
+    background: $quaternaryLight;
+    color: $secundaryLight;
+
+    & h2 {
+        font-size: 2.6rem;
+    }
+}
+
+.faq-items {
+    @include displayFlex(column, center, center);
+    gap: 1rem;
+    width: 100%;
+
+    & .faq-item {
+        @include displayFlex(column, center, start);
+        gap: 1rem;
+        width: 100%;
+        padding: 0.5rem;
+        border-bottom: 0.2rem solid $secundaryLight;
+
+        & .question {
+            @include displayFlex(row, space-between, center);
+            width: 100%;
+            color: $terciaryLight;
+            font-size: 2rem;
+
+            :hover {
+                cursor: pointer;
+            }
+
+            & .question_icon {
+                font-size: 3rem;
+            }
+        }
+
+        & .answer {
+            display: none;
+            font-size: 1.2rem;
+            text-align: justify;
+            line-height: 2rem;
+        }
+    }
+
+    & .faq-item.active {
+        & .answer {
+            display: flex;
+        }
+    }
+}

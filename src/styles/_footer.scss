@@ -1,0 +1,38 @@
+//Footer
+.footer {
+    @include displayFlex(row, space-between, center);
+    height: 5rem;
+    padding: 0 2rem;
+    background: $quaternaryLight;
+
+    & .footer_nets_list {
+        @include displayFlex(row, center, center);
+        gap: 2rem;
+
+        & .footer_nets_item {
+            color: $secundaryLight;
+            font-size: 3rem;
+        }
+    }
+
+    & .arrow {
+        // position: absolute;
+        cursor: pointer;
+        right: 0;
+        color: $secundaryLight;
+        font-size: 4rem;
+        animation: float ease-in-out infinite 3s;
+    }
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(4px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}

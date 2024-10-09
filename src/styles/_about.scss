@@ -1,0 +1,49 @@
+//About
+.about {
+    @include displayFlex(column, center, center);
+    height: 100vh;
+    padding: 2rem;
+    gap: 3rem;
+    background: $quaternaryLight;
+
+    & .about_image img {
+        width: 36rem;
+        height: 20rem;
+        border-radius: 1rem
+    }
+}
+
+.about .about_texts {
+    @include displayFlex(column, center, center);
+    height: 100%;
+    gap: 4rem;
+
+    & p {
+        font-size: 1.5rem;
+        text-align: justify;
+        color: $secundaryLight;
+    }
+
+    & .about_texts_hardSkills {
+        @include displayFlex(row, center, center);
+        flex-wrap: wrap;
+        gap: 0.8rem;
+
+        & .about_texts_hardSkill {
+            @include displayFlex(column, center, center);
+            background: $secundaryLight;
+            height: 9rem;
+            width: 9rem;
+            gap: 1rem;
+            font-size: 4rem;
+            color: $quaternaryLight;
+            border-radius: 1.2rem;
+
+            & p {
+                text-align: center;
+                font-size: 1.3rem;
+                color: $quaternaryLight;
+            }
+        }
+    }
+}

@@ -1,0 +1,127 @@
+//Contact
+.contact {
+    height: 100vh;
+
+    & .contact_card {
+        @include displayFlex(column, center, center);
+        gap: 4rem;
+        height: 100%;
+    }
+
+    & .contact_card .contact_card_title {
+        font-size: 3rem;
+    }
+
+    & .contact_card form {
+        @include displayFlex(column, center, center);
+        height: 84%;
+        width: 90%;
+        padding: 4rem 0;
+        background: $quaternaryLight;
+        border-radius: 1.8rem;
+    }
+
+    & .contact_card form .register {
+        text-align: center;
+    }
+
+    & .contact_card form .register #btn-send {
+        font-size: 1.8rem;
+        width: 100%;
+        padding: 1.2rem;
+        border-radius: 1.5rem;
+        background: $secundaryLight;
+        border: none;
+
+        &:hover {
+            background: $terciaryLight;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
+
+form .formulary {
+    @include displayFlex(column, center, center);
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    padding: 0 4rem;
+
+    & .item_formulary {
+        @include displayFlex(column, center, start);
+        height: 8rem;
+        width: 100%;
+        padding: 1rem 0;
+
+        &:last-child {
+            height: 20rem;
+        }
+    }
+
+    & .item_formulary label,
+    .item_formulary label span {
+        font-size: 1.6rem;
+        color: $primaryLight;
+        padding-bottom: 0.5rem;
+    }
+
+    & .item_formulary label span {
+        color: red;
+    }
+
+    & .item_formulary input {
+        padding: 1rem;
+        height: 4rem;
+        width: 100%;
+        font-size: 1.6rem;
+        border-radius: 0.5rem;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    & .item_formulary textarea {
+        resize: none;
+        font-size: 1.6rem;
+        height: 14rem;
+        width: 100%;
+        padding: 1rem;
+        border-radius: 0.5rem;
+
+        &::placeholder {
+            font-size: 2rem;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.aviso {
+    width: 100%;
+    color: red;
+    padding-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.div_form_send {
+    @include displayFlex(column, center, center);
+    gap: 2rem;
+    width: 90%;
+    height: 30%;
+    border-radius: 4rem;
+    background: $quaternaryLight;
+
+    & h3 {
+        color: $terciaryLight;
+        font-size: 2.2rem
+    }
+
+    & p {
+        color: $secundaryLight;
+        font-size: 1.6rem
+    }
+}

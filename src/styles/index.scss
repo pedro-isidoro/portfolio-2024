@@ -1,0 +1,13 @@
+@import './reset';
+@import './variables';
+@import './header';
+@import './home';
+@import './about';
+@import './projects'; 
+@import './faqs'; 
+@import './contact'; 
+@import './footer'; 
+
+.main_content{
+    background: $primaryLight;
+}
