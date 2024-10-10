@@ -3,8 +3,36 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiStyledcomponents, SiReactrouter, SiRedux, SiVitest, SiTestinglibrary } from "react-icons/si";
 import { BsClipboard2Fill } from "react-icons/bs";
 import { BiLogoTypescript } from "react-icons/bi";
+import { useLayoutEffect } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
 
 export function Skills(){
+    useLayoutEffect(()=>{
+        gsap.registerPlugin(ScrollTrigger)
+        gsap.context(() => {
+            gsap.timeline({
+                scrollTrigger:{
+                    trigger:".about_texts_hardSkill",
+                    // markers: true,
+                    scrub: true,
+                    start: "top 600px",
+                    end: "bottom 500px"
+                }
+            })
+            .fromTo(".about_texts_hardSkill", {
+                opacity: 0,
+                y: 160,
+            },{
+                opacity:1,
+                y: 0,
+            })
+        }, ".about_texts")
+
+        return ()=>{
+            gsap.killTweensOf(".about_texts")
+        }
+    }, [])
     return (
         <section className="about" id="about">
             <h2 className="about_title">My Skills</h2>
