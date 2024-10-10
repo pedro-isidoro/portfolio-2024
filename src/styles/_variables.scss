@@ -4,7 +4,23 @@ $secundaryLight: #d0f165;
 $terciaryLight: #7da90f;
 $quaternaryLight: #1f2e05;
 //Dark Theme
-$primaryDark: #000;
-$secundaryDark: #3d0000;
-$terciaryDark: #950101;
-$quaternaryDark: #ff0000;
+$primaryDark: #1c243d;
+$secundaryDark: #445583;
+$terciaryDark: #4f6fc7;
+$quaternaryDark: #b6c5f0;
+:root {
+    --primary-color: #{$primaryLight};
+    --secundary-color: #{$secundaryLight};
+    --terciary-color: #{$terciaryLight};
+    --quaternary-color: #{$quaternaryLight};
+}
+
+// Modo escuro
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color: #{$primaryDark};
+        --secundary-color: #{$secundaryDark};
+        --terciary-color: #{$terciaryDark};
+        --quaternary-color: #{$quaternaryDark};
+    }
+}

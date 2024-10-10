@@ -1,17 +1,21 @@
 //Footer
 .footer {
     @include displayFlex(row, space-between, center);
-    height: 5rem;
+    height: 6rem;
     padding: 0 2rem;
-    background: $quaternaryLight;
+    background: var(--quaternary-color);
 
     & .footer_nets_list {
         @include displayFlex(row, center, center);
         gap: 2rem;
 
         & .footer_nets_item {
-            color: $secundaryLight;
+            color: var(--primary-color);
             font-size: 3rem;
+            &:hover {
+                cursor: pointer;
+                color: var(--terciary-color);
+            }
         }
     }
 
@@ -19,16 +23,18 @@
         // position: absolute;
         cursor: pointer;
         right: 0;
-        color: $secundaryLight;
+        color: var(--primary-color);
         font-size: 4rem;
         animation: float ease-in-out infinite 3s;
+        &:hover {
+            cursor: pointer;
+            color: var(--terciary-color);
+        }
     }
 }
 
 @keyframes float {
-
-    0%,
-    100% {
+    0%, 100% {
         transform: translateY(4px);
     }
 

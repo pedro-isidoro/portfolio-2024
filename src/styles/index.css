@@ -10,16 +10,31 @@
   text-decoration: none;
 }
 
+:root {
+  --primary-color: #fafee7;
+  --secundary-color: #d0f165;
+  --terciary-color: #7da90f;
+  --quaternary-color: #1f2e05;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #1c243d;
+    --secundary-color: #445583;
+    --terciary-color: #4f6fc7;
+    --quaternary-color: #b6c5f0;
+  }
+}
 .header {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  color: #1f2e05;
+  color: var(--quaternary-color);
   width: 100%;
   height: 4rem;
   padding: 3rem 2rem;
-  border-bottom: 0.1rem solid #1f2e05;
+  border-bottom: 0.1rem solid var(--quaternary-color);
 }
 .header .header_section_title {
   display: flex;
@@ -34,37 +49,49 @@
   display: none;
 }
 .header .header_anchor {
-  border: 0.1rem solid #1f2e05;
-  color: #1f2e05;
+  border: 0.1rem solid var(--quaternary-color);
+  color: var(--quaternary-color);
   font-size: 1.3rem;
   width: 14rem;
   padding: 0.5rem;
   border-radius: 2rem;
   text-align: center;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
 }
 .header .header_anchor:hover {
-  cursor: pointer;
-  animation: bgColor ease-in-out 3s;
+  color: var(--secundary-color);
+}
+.header .header_anchor::before {
+  content: "";
+  height: 100%;
+  width: 0;
+  background: var(--quaternary-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.5s;
+}
+.header .header_anchor:hover::before {
+  width: 100%;
 }
 .header .header_anchor .header_anchor_icon {
   font-size: 1rem;
   margin-left: 0.5rem;
 }
-
-@keyframes bgColor {
-  0% {
-    background: none;
-  }
-  100% {
-    background: linear-gradient(to right, #333, #333 50%, #eee 75%, #333 75%);
-  }
+.header .header_anchor .header_anchor_icon:hover {
+  color: var(--secundary-color);
 }
+
 .home {
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
-  color: #1f2e05;
+  color: var(--quaternary-color);
   width: 100%;
   height: 100vh;
   padding: 2rem;
@@ -101,8 +128,12 @@
   gap: 2rem;
 }
 .home_introducing .home_introducing_nets .home_introducing_net {
-  color: #7da90f;
+  color: var(--terciary-color);
   font-size: 4rem;
+}
+.home_introducing .home_introducing_nets .home_introducing_net:hover {
+  cursor: pointer;
+  color: var(--quaternary-color);
 }
 
 .about {
@@ -113,7 +144,7 @@
   height: 100vh;
   padding: 2rem;
   gap: 3rem;
-  background: #1f2e05;
+  background: var(--quaternary-color);
 }
 .about .about_image img {
   width: 36rem;
@@ -132,7 +163,7 @@
 .about .about_texts p {
   font-size: 1.5rem;
   text-align: justify;
-  color: #d0f165;
+  color: var(--secundary-color);
 }
 .about .about_texts .about_texts_hardSkills {
   display: flex;
@@ -147,18 +178,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #d0f165;
+  background: var(--secundary-color);
   height: 9rem;
   width: 9rem;
   gap: 1rem;
   font-size: 4rem;
-  color: #1f2e05;
+  color: var(--quaternary-color);
   border-radius: 1.2rem;
 }
 .about .about_texts .about_texts_hardSkills .about_texts_hardSkill p {
   text-align: center;
   font-size: 1.3rem;
-  color: #1f2e05;
+  color: var(--quaternary-color);
 }
 
 .projects {
@@ -169,7 +200,7 @@
   height: 100vh;
   padding: 4rem 2rem;
   gap: 4rem;
-  color: #1f2e05;
+  color: var(--quaternary-color);
 }
 .projects .projects_title {
   font-size: 2.6rem;
@@ -199,7 +230,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #1f2e05;
+  background: var(--quaternary-color);
   width: 100%;
   height: 90%;
   border-radius: 1.2rem;
@@ -222,11 +253,11 @@
 .ProjectDetails_card_info .ProjectDetails_card_info_stack,
 .ProjectDetails_card_info .ProjectDetails_card_info_p {
   font-size: 1.4rem;
-  color: #7da90f;
+  color: var(--terciary-color);
 }
 .ProjectDetails_card_info span {
   font-size: 1.2rem;
-  color: #d0f165;
+  color: var(--secundary-color);
 }
 .ProjectDetails_card_info .ProjectDetails_card_info_p {
   text-align: justify;
@@ -241,8 +272,8 @@
   height: 100vh;
   width: 100%;
   padding: 4rem;
-  background: #1f2e05;
-  color: #d0f165;
+  background: var(--quaternary-color);
+  color: var(--secundary-color);
 }
 .faq h2 {
   font-size: 2.6rem;
@@ -264,7 +295,7 @@
   gap: 1rem;
   width: 100%;
   padding: 0.5rem;
-  border-bottom: 0.2rem solid #d0f165;
+  border-bottom: 0.2rem solid var(--secundary-color);
 }
 .faq-items .faq-item .question {
   display: flex;
@@ -272,7 +303,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  color: #7da90f;
+  color: var(--terciary-color);
   font-size: 2rem;
 }
 .faq-items .faq-item .question :hover {
@@ -301,6 +332,7 @@
   align-items: center;
   gap: 4rem;
   height: 100%;
+  color: var(--quaternary-color);
 }
 .contact .contact_card .contact_card_title {
   font-size: 3rem;
@@ -313,7 +345,7 @@
   height: 84%;
   width: 90%;
   padding: 4rem 0;
-  background: #1f2e05;
+  background: var(--quaternary-color);
   border-radius: 1.8rem;
 }
 .contact .contact_card form .register {
@@ -324,13 +356,31 @@
   width: 100%;
   padding: 1.2rem;
   border-radius: 1.5rem;
-  background: #d0f165;
+  background: var(--terciary-color);
   border: none;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
 }
 .contact .contact_card form .register #btn-send:hover {
-  background: #7da90f;
-  color: white;
-  cursor: pointer;
+  color: black;
+}
+.contact .contact_card form .register #btn-send::before {
+  background: var(--secundary-color);
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  transition: all 0.6s;
+  transform: translate(-50%, -50%) rotate(-35deg);
+}
+.contact .contact_card form .register #btn-send:hover::before {
+  height: 370%;
 }
 
 form .formulary {
@@ -358,7 +408,7 @@ form .formulary .item_formulary:last-child {
 form .formulary .item_formulary label,
 form .formulary .item_formulary label span {
   font-size: 1.6rem;
-  color: #fafee7;
+  color: var(--primary-color);
   padding-bottom: 0.5rem;
 }
 form .formulary .item_formulary label span {
@@ -408,14 +458,14 @@ form .formulary .item_formulary textarea:focus {
   width: 90%;
   height: 30%;
   border-radius: 4rem;
-  background: #1f2e05;
+  background: var(--quaternary-color);
 }
 .div_form_send h3 {
-  color: #7da90f;
+  color: var(--terciary-color);
   font-size: 2.2rem;
 }
 .div_form_send p {
-  color: #d0f165;
+  color: var(--secundary-color);
   font-size: 1.6rem;
 }
 
@@ -424,9 +474,9 @@ form .formulary .item_formulary textarea:focus {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 5rem;
+  height: 6rem;
   padding: 0 2rem;
-  background: #1f2e05;
+  background: var(--quaternary-color);
 }
 .footer .footer_nets_list {
   display: flex;
@@ -436,15 +486,23 @@ form .formulary .item_formulary textarea:focus {
   gap: 2rem;
 }
 .footer .footer_nets_list .footer_nets_item {
-  color: #d0f165;
+  color: var(--primary-color);
   font-size: 3rem;
+}
+.footer .footer_nets_list .footer_nets_item:hover {
+  cursor: pointer;
+  color: var(--terciary-color);
 }
 .footer .arrow {
   cursor: pointer;
   right: 0;
-  color: #d0f165;
+  color: var(--primary-color);
   font-size: 4rem;
   animation: float ease-in-out infinite 3s;
+}
+.footer .arrow:hover {
+  cursor: pointer;
+  color: var(--terciary-color);
 }
 
 @keyframes float {
@@ -456,5 +514,5 @@ form .formulary .item_formulary textarea:focus {
   }
 }
 .main_content {
-  background: #fafee7;
+  background: var(--primary-color);
 }/*# sourceMappingURL=index.css.map */

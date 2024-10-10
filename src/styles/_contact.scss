@@ -6,6 +6,7 @@
         @include displayFlex(column, center, center);
         gap: 4rem;
         height: 100%;
+        color: var(--quaternary-color);
     }
 
     & .contact_card .contact_card_title {
@@ -17,7 +18,7 @@
         height: 84%;
         width: 90%;
         padding: 4rem 0;
-        background: $quaternaryLight;
+        background: var(--quaternary-color);
         border-radius: 1.8rem;
     }
 
@@ -30,13 +31,31 @@
         width: 100%;
         padding: 1.2rem;
         border-radius: 1.5rem;
-        background: $secundaryLight;
+        background: var(--terciary-color);
         border: none;
-
+        color: white;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        cursor: pointer;
         &:hover {
-            background: $terciaryLight;
-            color: white;
-            cursor: pointer;
+            color: black;
+        }
+        &::before {
+            background: var(--secundary-color);
+            position: absolute;
+            content: "";
+            height: 0;
+            width: 100%;
+            top: 50%;
+            left: 50%;
+            z-index: -1;
+            transition: all .6s;
+            transform: translate(-50%, -50%) rotate(-35deg);
+        }
+
+        &:hover::before {
+            height: 370%;
         }
     }
 }
@@ -62,7 +81,7 @@ form .formulary {
     & .item_formulary label,
     .item_formulary label span {
         font-size: 1.6rem;
-        color: $primaryLight;
+        color: var(--primary-color);
         padding-bottom: 0.5rem;
     }
 
@@ -113,15 +132,15 @@ form .formulary {
     width: 90%;
     height: 30%;
     border-radius: 4rem;
-    background: $quaternaryLight;
+    background: var(--quaternary-color);
 
     & h3 {
-        color: $terciaryLight;
+        color: var(--terciary-color);
         font-size: 2.2rem
     }
 
     & p {
-        color: $secundaryLight;
+        color: var(--secundary-color);
         font-size: 1.6rem
     }
 }

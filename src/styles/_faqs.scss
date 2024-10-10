@@ -5,8 +5,8 @@
     height: 100vh;
     width: 100%;
     padding: 4rem;
-    background: $quaternaryLight;
-    color: $secundaryLight;
+    background: var(--quaternary-color);
+    color: var(--secundary-color);
 
     & h2 {
         font-size: 2.6rem;
@@ -23,12 +23,12 @@
         gap: 1rem;
         width: 100%;
         padding: 0.5rem;
-        border-bottom: 0.2rem solid $secundaryLight;
+        border-bottom: 0.2rem solid var(--secundary-color);
 
         & .question {
             @include displayFlex(row, space-between, center);
             width: 100%;
-            color: $terciaryLight;
+            color: var(--terciary-color);
             font-size: 2rem;
 
             :hover {
