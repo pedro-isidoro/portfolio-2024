@@ -3,18 +3,18 @@
     @include displayFlex(row, space-between, center);
     height: 6rem;
     padding: 0 2rem;
-    background: var(--quaternary-color);
+    border-top: 0.1rem solid $lightColor;
 
     & .footer_nets_list {
         @include displayFlex(row, center, center);
         gap: 2rem;
 
         & .footer_nets_item a{
-            color: var(--primary-color);
+            color: $lightColor;
             font-size: 3rem;
             &:hover {
                 cursor: pointer;
-                color: var(--terciary-color);
+                color: $Graycolor;
             }
         }
     }
@@ -23,12 +23,12 @@
         // position: absolute;
         cursor: pointer;
         right: 0;
-        color: var(--primary-color);
+        color: $lightColor;
         font-size: 4rem;
         animation: float ease-in-out infinite 3s;
         &:hover {
             cursor: pointer;
-            color: var(--terciary-color);
+            color: $Graycolor;
         }
     }
 }

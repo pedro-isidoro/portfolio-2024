@@ -52,7 +52,7 @@ export function Contact(){
         }
     });
     return(
-        <section className="contact">
+        <section className="contact" id='contact'>
             <div className="contact_card">
                 <div className="contact_card_title">
                     <h3>Entre em contato comigo!</h3>

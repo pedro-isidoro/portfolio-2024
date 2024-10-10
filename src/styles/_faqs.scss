@@ -2,11 +2,10 @@
 .faq {
     @include displayFlex(column, center, center);
     gap: 4rem;
-    height: 100vh;
+    height: auto;
     width: 100%;
     padding: 4rem;
-    background: var(--quaternary-color);
-    color: var(--secundary-color);
+    color: $lightColor;
 
     & h2 {
         font-size: 2.6rem;
@@ -23,12 +22,12 @@
         gap: 1rem;
         width: 100%;
         padding: 0.5rem;
-        border-bottom: 0.2rem solid var(--secundary-color);
+        border-bottom: 0.2rem solid $lightGraycolor;
 
         & .question {
             @include displayFlex(row, space-between, center);
             width: 100%;
-            color: var(--terciary-color);
+            color: $lightGraycolor;
             font-size: 2.2rem;
 
             :hover {

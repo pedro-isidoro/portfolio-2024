@@ -1,15 +1,17 @@
 //About
 .about {
     @include displayFlex(column, center, center);
-    height: 100vh;
-    padding: 2rem;
+    height: auto;
+    padding: 8rem 2rem;
     gap: 3rem;
-    background: var(--quaternary-color);
-
-    & .about_image img {
-        width: 36rem;
-        height: 20rem;
-        border-radius: 1rem
+    & .about_title {
+        font-size: 2.6rem;
+        color: $lightColor;
+    }
+    & h3{
+        font-size: 2rem;
+        color: $lightGraycolor;
+        margin-bottom: 4rem;
     }
     @include respond-to(large) {
         & .about_image img{
@@ -23,31 +25,25 @@
     @include displayFlex(column, center, center);
     height: 100%;
     gap: 2rem;
-    & p {
-        font-size: 1.6rem;
-        text-align: justify;
-        color: var(--secundary-color);
-    }
 
     & .about_texts_hardSkills {
         @include displayFlex(row, center, center);
         flex-wrap: wrap;
-        gap: 0.8rem;
+        gap: 1.4rem;
 
         & .about_texts_hardSkill {
             @include displayFlex(column, center, center);
-            background: var(--secundary-color);
             height: 9rem;
             width: 9rem;
             gap: 1rem;
             font-size: 4rem;
-            color: var(--quaternary-color);
+            color: $lightColor;
             border-radius: 1.2rem;
-
+            border: 0.1rem solid $lightColor;
             & p {
                 text-align: center;
                 font-size: 1.3rem;
-                color: var(--quaternary-color);
+                color: $lightColor;
             }
         }
     }
@@ -59,8 +55,5 @@
     @include respond-to(large) {
         width: 90%;
         gap: 4rem;
-        & p {
-            font-size: 2.2rem;
-        }
     }
 }

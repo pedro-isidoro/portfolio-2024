@@ -1,11 +1,10 @@
 //Projects
 .projects {
     @include displayFlex(column, center, center);
-    height: 100vh;
-    padding: 4rem 2rem;
+    height: auto;
+    padding-top: 10rem;
     gap: 4rem;
-    color: var(--quaternary-color);
-    
+    color: $lightColor;
     & .projects_title {
         font-size: 2.6rem;
     }
@@ -13,30 +12,24 @@
 
 .projects_content_list {
     width: 100%;
-    & .pagination {
-        color: red;
-    }
-    
-    & .swiper-slide {
+    @include displayFlex(column, center, center);
+    flex-wrap: wrap;
+    & li{
         @include displayFlex(column, center, center);
-        text-align: center;
     }
 }
 
 //Projec Details
 .ProjectDetails_card {
-    @include displayFlex(column, center, center);
-    width: 44rem;
-    height: 52rem;
+    width: 42rem;
+    height: 50rem;
     padding: 2rem;
-
     & .ProjectDetails_card_infos {
         @include displayFlex(column, center, center);
-        background: var(--quaternary-color);
-        width: 100%;
-        height: 90%;
+        gap: 3rem;
+        border: 0.1rem solid $lightColor;
         border-radius: 1.2rem;
-        padding: 1rem 1.4rem;
+        padding: 2rem 2rem;
 
         & img {
             width: 100%;
@@ -64,7 +57,7 @@
     & .ProjectDetails_card_info_stack,
     .ProjectDetails_card_info_p {
         font-size: 1.6rem;
-        color: var(--terciary-color);
+        color: $lightGraycolor;
     }
 
     & span {

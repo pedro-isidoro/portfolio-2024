@@ -1,22 +1,6 @@
 [
     {
         "id": 1,
-        "title": "Old Portfólio",
-        "src": "images/projects/js/my-portfolio.webp",
-        "stack": "HTML | CSS | JS | React | Router-Dom | Hook-Form",
-        "paragraph": "Projeto desenvolvido para práticar meus conhecimentos bem fundamentados no básico das minhas Hard Skills. Em estilização com CSS puro, na utilização do React Router Dom e do Hook Forms.",
-        "vercelLink": "https://lnkd.in/djqMJqAe"
-    },
-    {
-        "id": 2,
-        "title": "My Hobbies",
-        "src": "images/projects/js/my-hobbies.png",
-        "stack": "HTML | JS | React | Styled-Components",
-        "paragraph": "Fiz este site para me apresentar um pouco melhor e falar sobre meus hobbies e gostos pessoais. Além de praticar a estilização com styled components, rotas com router dom e o uso de carrosséis sem bibliotecas externas.",
-        "vercelLink": "https://lnkd.in/dQYbvYDa"
-    },
-    {
-        "id": 3,
         "title": "Dev Burguer",
         "src": "images/projects/js/dev-burguer.png",
         "stack": "HTML | JS | Tailwind | React",
@@ -24,7 +8,7 @@
         "vercelLink": "https://lnkd.in/d4UfPPsy"
     },
     {
-        "id": 4,
+        "id": 2,
         "title": "Pokédex",
         "src": "images/projects/js/my-pokedex.png",
         "stack": "HTML | JS | Tailwind | React | Redux | API",
@@ -32,7 +16,7 @@
         "vercelLink": "https://lnkd.in/dEcizF2w"
     },
     {
-        "id": 5,
+        "id": 3,
         "title": "My Best Photografies",
         "src": "images/projects/ts/my-photos.png",
         "stack": "HTML | TS | React | Tailwind | Vitest",
