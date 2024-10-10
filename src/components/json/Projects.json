@@ -20,7 +20,7 @@
         "title": "My Best Photografies",
         "src": "images/projects/ts/my-photos.png",
         "stack": "HTML | TS | React | Tailwind | Vitest",
-        "paragraph": " Um projeto simples, para apresentação de minhas fotos pessoais e autorais. Mostrando looks de roupa e poses. Neste projeto, o realizei com o intuito de praticar testes unitários.",
+        "paragraph": "Um projeto simples, para apresentação de minhas fotos pessoais e autorais. Mostrando looks de roupa e poses. Neste projeto, o realizei com o intuito de praticar testes unitários. Os quais não consegui realizar com jest, mas sim com a ajuda do Framework 'Jest'.",
         "vercelLink": "https://lnkd.in/dkGyW27m"
     }
 ]

@@ -24,6 +24,7 @@
 .about .about_texts {
     @include displayFlex(column, center, center);
     height: 100%;
+    width: 95%;
     gap: 2rem;
 
     & .about_texts_hardSkills {
@@ -49,19 +50,11 @@
     }
     @include respond-to(small) {
         @include displayFlex(column, center, center);
-        width: 90%;
         gap: 4rem;
-    }
-    @include respond-to(medium){
-        & .about_texts_hardSkills{
-            width: 80%;
-        }
     }
     @include respond-to(large) {
-        width: 90%;
-        gap: 4rem;
         & .about_texts_hardSkills {
-            width: 50%;
+            width: 60%;
         }
     }
 }
