@@ -20,13 +20,13 @@
     & h1 {
         font-size: 3.5rem;
         text-align: justify;
-        color: $lightColor;
+        color: var(--quaternary-color);
     }
     & p {
         text-align: center;
         font-size: 1.5rem;
         line-height: 2.5rem;
-        color: $lightGraycolor;
+        color: var(--terciary-color);
     }
     @include respond-to(small) {
         width: 80%;
@@ -34,11 +34,14 @@
             font-size: 1.7rem;
         }
     }
+    @include respond-to(medium) {
+        width: 60%;
+    }
 }
 
 .home_anchor {
-    border: 0.1rem solid $lightGraycolor;
-    color: $lightGraycolor;
+    border: 0.1rem solid var(--terciary-color);
+    color: var(--terciary-color);
     font-size: 1.3rem;
     width: 14rem;
     padding: 0.5rem;
@@ -50,14 +53,14 @@
     z-index: 1;
 
     &:hover {
-        color: $bodyBackground;
+        color: var(--primary-color);
     }
 
     &::before {
         content: "";
         height: 100%;
         width: 0;
-        background: $lightGraycolor;
+        background: var(--terciary-color);
         position: absolute;
         top: 0;
         left: 0;
@@ -73,7 +76,7 @@
         margin-left: 0.5rem;
 
         &:hover {
-            color: $bodyBackground;
+            color: var(--primary-color);
         }
     }
 }

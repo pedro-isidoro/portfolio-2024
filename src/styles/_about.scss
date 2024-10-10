@@ -6,11 +6,11 @@
     gap: 3rem;
     & .about_title {
         font-size: 2.6rem;
-        color: $lightColor;
+        color: var(--quaternary-color);
     }
     & h3{
         font-size: 2rem;
-        color: $lightGraycolor;
+        color: var(--terciary-color);
         margin-bottom: 4rem;
     }
     @include respond-to(large) {
@@ -37,13 +37,13 @@
             width: 9rem;
             gap: 1rem;
             font-size: 4rem;
-            color: $lightColor;
+            color: var(--quaternary-color);
             border-radius: 1.2rem;
-            border: 0.1rem solid $lightColor;
+            border: 0.1rem solid var(--quaternary-color);
             & p {
                 text-align: center;
                 font-size: 1.3rem;
-                color: $lightColor;
+                color: var(--quaternary-color);
             }
         }
     }
@@ -52,8 +52,16 @@
         width: 90%;
         gap: 4rem;
     }
+    @include respond-to(medium){
+        & .about_texts_hardSkills{
+            width: 80%;
+        }
+    }
     @include respond-to(large) {
         width: 90%;
         gap: 4rem;
+        & .about_texts_hardSkills {
+            width: 50%;
+        }
     }
 }

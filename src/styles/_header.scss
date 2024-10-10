@@ -4,13 +4,11 @@
     position: relative;
     & .header_aside{
         @include displayFlex(row, center, center);
+        position: fixed;
         height: 9rem;
         width: 100%;
         top: 0;
         left: 0;
-        position: fixed;
-        padding: 0.8rem;
-        background: $Graycolor;
         z-index: 5;
         backdrop-filter: blur(0.3rem);
     }
@@ -20,25 +18,33 @@
     @include displayFlex(row, center, center);
     flex-wrap: wrap;
     width: 100%;
+    height: 100%;
+    padding: 0.8rem;
+    background: var(--secundary-color);
     & .header_aside_link{
         padding: 0.8rem 2rem;
         & a{
-            color: $lightColor;
+            color: var(--quaternary-color);
             font-size: 1.6rem;
         }
         &:hover{
             cursor: pointer;
             border-radius: 2rem;
-            background: $lightColor;
+            background: var(--quaternary-color);
             & a{
-                color: $Graycolor;
+                color: var(--secundary-color);
             }
         }
     }
+    @include respond-to(small) {
+        border-radius: 4rem;
+        height: auto;
+        width: 75%;
+    }
     @include respond-to(medium) {
-        gap: 2rem;
+        width: 65%;
     }
     @include respond-to(large) {
-        gap: 6rem;
+        width: 50%;
     }
 }

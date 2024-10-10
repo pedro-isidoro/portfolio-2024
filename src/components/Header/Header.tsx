@@ -4,7 +4,7 @@ export function Header() {
             <aside className="header_aside">
                 <ul className="header_aside_links">
                     <li className="header_aside_link">
-                        <a href=".home">Home</a>
+                        <a href="#home">Home</a>
                     </li>
                     <li className="header_aside_link">
                         <a href="#about">About</a>

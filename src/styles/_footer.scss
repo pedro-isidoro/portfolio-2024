@@ -3,18 +3,18 @@
     @include displayFlex(row, space-between, center);
     height: 6rem;
     padding: 0 2rem;
-    border-top: 0.1rem solid $lightColor;
+    border-top: 0.1rem solid var(--quaternary-color);
 
     & .footer_nets_list {
         @include displayFlex(row, center, center);
         gap: 2rem;
 
         & .footer_nets_item a{
-            color: $lightColor;
+            color: var(--quaternary-color);
             font-size: 3rem;
             &:hover {
                 cursor: pointer;
-                color: $Graycolor;
+                color: var(--secundary-color);
             }
         }
     }
@@ -23,13 +23,17 @@
         // position: absolute;
         cursor: pointer;
         right: 0;
-        color: $lightColor;
+        color: var(--quaternary-color);
         font-size: 4rem;
         animation: float ease-in-out infinite 3s;
         &:hover {
             cursor: pointer;
-            color: $Graycolor;
+            color: var(--secundary-color);
         }
+    }
+    @include respond-to(medium) {
+        @include displayFlex(row, center, center);
+        gap: 50%;
     }
 }
 

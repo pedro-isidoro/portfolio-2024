@@ -5,7 +5,7 @@
     & .contact_card {
         @include displayFlex(column, center, center);
         height: 100%;
-        color: $lightColor;
+        color: var(--quaternary-color);
     }
 
     & .contact_card .contact_card_title {
@@ -17,6 +17,13 @@
         height: 80%;
         width: 100%;
         padding: 4rem;
+        @include respond-to(medium) {
+            width: 60%;
+        }
+    
+        @include respond-to(large) {
+            width: 40%;
+        }
     }
 
     & .contact_card form .register {
@@ -28,18 +35,18 @@
         width: 100%;
         padding: 1.2rem;
         border-radius: 1rem;
-        background: $lightColor;
+        background: var(--quaternary-color);
         border: none;
-        color: $Graycolor;
+        color: var(--secundary-color);
         position: relative;
         overflow: hidden;
         z-index: 1;
         cursor: pointer;
         &:hover {
-            color: $lightColor;
+            color: var(--quaternary-color);
         }
         &::before {
-            background: $Graycolor;
+            background: var(--secundary-color);
             position: absolute;
             content: "";
             height: 0;
@@ -89,8 +96,8 @@ form .formulary {
         width: 100%;
         font-size: 1.6rem;
         background: none;
-        border: 0.1rem solid $lightGraycolor;
-        color: $lightGraycolor;
+        border: 0.1rem solid var(--terciary-color);
+        color: var(--terciary-color);
         border-radius: 0.5rem;
         &:focus {
             outline: none;
@@ -104,8 +111,8 @@ form .formulary {
         width: 100%;
         padding: 1rem;
         background: none;
-        border: 0.1rem solid $lightGraycolor;
-        color: $lightGraycolor;
+        border: 0.1rem solid var(--terciary-color);
+        color: var(--terciary-color);
         border-radius: 0.5rem;
 
         &::placeholder {
@@ -126,18 +133,17 @@ form .formulary {
 }
 
 .div_form_send {
-    @include displayFlex(column, center, end);
+    @include displayFlex(column, center, center);
     gap: 2rem;
-    width: 90%;
+    width: 60%;
     height: 30%;
-
     & h3 {
-        color: $lightColor;
+        color: var(--quaternary-color);
         font-size: 2.2rem
     }
 
     & p {
-        color: $lightGraycolor;
+        color: var(--terciary-color);
         font-size: 1.6rem
     }
 }
