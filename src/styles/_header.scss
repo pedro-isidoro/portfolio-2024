@@ -13,10 +13,6 @@
         font-size: 2rem;
     }
 
-    & .header_aside {
-        display: none;
-    }
-
     & .header_anchor {
         border: 0.1rem solid var(--quaternary-color);
         color: var(--quaternary-color);
@@ -45,7 +41,6 @@
         }
         &:hover::before{
             width: 100%;
-            
         }
     }
     
@@ -55,5 +50,35 @@
         &:hover{
             color: var(--secundary-color);
         }
+    }
+
+    @include respond-to(medium) {
+        @include displayFlex(row, space-evenly, center);
+        & .header_section_title {
+            width: 20%;
+            height: 100%;
+            font-size: 2rem;
+        }
+    }
+}
+
+.header_aside .header_aside_links{
+    display: none;
+    width: 100%;
+    & .header_aside_link{
+        font-size: 2rem;
+        color: var(--quaternary-color);
+        &:hover{
+            color: var(--secundary-color);
+            cursor: pointer;
+        }
+    }
+    @include respond-to(medium) {
+        // @include displayFlex(row, start, center);
+        display: flex;
+        gap: 2rem;
+    }
+    @include respond-to(large) {
+        gap: 6rem;
     }
 }

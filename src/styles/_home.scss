@@ -17,7 +17,6 @@
 .home_introducing {
     @include displayFlex(column, center, start);
     gap: 2rem;
-
     & h1 {
         font-size: 3.5rem;
         text-align: justify;
@@ -34,13 +33,22 @@
         @include displayFlex(row, center, center);
         gap: 2rem;
 
-        & .home_introducing_net {
+        & .home_introducing_net a{
             color: var(--terciary-color);
             font-size: 4rem;
             &:hover{
                 cursor: pointer;
                 color: var(--quaternary-color);
             }
+        }
+    }
+    @include respond-to(small) {
+        @include displayFlex(column, center, center);
+        width: 80%;
+
+        & p {
+            text-align: center;
+            font-size: 1.7rem;
         }
     }
 }

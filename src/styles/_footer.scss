@@ -9,7 +9,7 @@
         @include displayFlex(row, center, center);
         gap: 2rem;
 
-        & .footer_nets_item {
+        & .footer_nets_item a{
             color: var(--primary-color);
             font-size: 3rem;
             &:hover {

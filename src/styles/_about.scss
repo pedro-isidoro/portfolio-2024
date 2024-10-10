@@ -11,15 +11,20 @@
         height: 20rem;
         border-radius: 1rem
     }
+    @include respond-to(large) {
+        & .about_image img{
+            width: 56rem;
+            height: 30rem;
+        }
+    }
 }
 
 .about .about_texts {
     @include displayFlex(column, center, center);
     height: 100%;
-    gap: 4rem;
-
+    gap: 2rem;
     & p {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         text-align: justify;
         color: var(--secundary-color);
     }
@@ -44,6 +49,18 @@
                 font-size: 1.3rem;
                 color: var(--quaternary-color);
             }
+        }
+    }
+    @include respond-to(small) {
+        @include displayFlex(column, center, center);
+        width: 90%;
+        gap: 4rem;
+    }
+    @include respond-to(large) {
+        width: 90%;
+        gap: 4rem;
+        & p {
+            font-size: 2.2rem;
         }
     }
 }
