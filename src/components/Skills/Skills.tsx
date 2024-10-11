@@ -39,18 +39,18 @@ export function Skills(){
             <h3>Lista de tecnologias</h3>
             <div className="about_texts">
                 <ul className="about_texts_hardSkills">
-                    <li className="about_texts_hardSkill"><FaGitAlt /><p>Git</p></li>
+                    <li className="about_texts_hardSkill" id="about_texts_hardSkill1"><FaGitAlt /><p>Git</p></li>
                     <li className="about_texts_hardSkill"><FaGithub /><p>GitHub</p></li>
                     <li className="about_texts_hardSkill"><FaHtml5/><p>HTML</p></li>
                     <li className="about_texts_hardSkill"><FaCss3Alt/><p>CSS</p></li>
-                    <li className="about_texts_hardSkill"><FaJs/><p>JS</p></li>
+                    <li className="about_texts_hardSkill"><FaJs/><p>Javascript</p></li>
                     <li className="about_texts_hardSkill"><FaReact/><p>React</p></li>
                     <li className="about_texts_hardSkill"><SiStyledcomponents/><p>Styled<br/>Components</p></li>
                     <li className="about_texts_hardSkill"><SiReactrouter/><p>Router<br/>Dom</p></li>
                     <li className="about_texts_hardSkill"><BsClipboard2Fill/><p>Hook<br/>Form</p></li>
                     <li className="about_texts_hardSkill"><RiTailwindCssFill/><p>Tailwind</p></li>
                     <li className="about_texts_hardSkill"><SiRedux/><p>Redux</p></li>
-                    <li className="about_texts_hardSkill"><BiLogoTypescript/><p>TS</p></li>
+                    <li className="about_texts_hardSkill"><BiLogoTypescript/><p>Typescript</p></li>
                     <li className="about_texts_hardSkill"><FaSass/><p>Sass</p></li>
                     <li className="about_texts_hardSkill"><SiVitest /><p>Vitest</p></li>
                     <li className="about_texts_hardSkill"><SiTestinglibrary  /><p>Testing<br/>Library</p></li>
