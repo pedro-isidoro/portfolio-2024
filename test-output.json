@@ -1,0 +1,25 @@
+{"numTotalTestSuites":4,"numPassedTestSu<testsuites name="vitest tests" tests="9" failures="0" errors="0" time="5.57">
+    <testsuite name="src/tests/header.spec.tsx" timestamp="2024-10-11T14:05:42.786Z" hostname="Pedro" tests="5" failures="0" errors="0" skipped="0" time="0">
+        <testcase classname="src/tests/header.spec.tsx" name="Header - Main Aside Content &gt; should render the header Text Button" time="0">
+        </testcase>
+        <testcase classname="src/tests/header.spec.tsx" name="Header - Main Aside Content &gt; should render the skills Text Button" time="0">
+        </testcase>
+        <testcase classname="src/tests/header.spec.tsx" name="Header - Main Aside Content &gt; should render the header Projects Button" time="0">
+        </testcase>
+        <testcase classname="src/tests/header.spec.tsx" name="Header - Main Aside Content &gt; should render the header Text Button" time="0">
+        </testcase>
+        <testcase classname="src/tests/header.spec.tsx" name="Header - Main Aside Content &gt; should render the header Text Button" time="0">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/tests/home.spec.tsx" timestamp="2024-10-11T14:05:42.791Z" hostname="Pedro" tests="4" failures="0" errors="0" skipped="0" time="0">
+        <testcase classname="src/tests/home.spec.tsx" name="Home - Main home Content &gt; should render the alt image Text" time="0">
+        </testcase>
+        <testcase classname="src/tests/home.spec.tsx" name="Home - Main home Content &gt; should render the title Text" time="0">
+        </testcase>
+        <testcase classname="src/tests/home.spec.tsx" name="Home - Main home Content &gt; should render the paragraph Text" time="0">
+        </testcase>
+        <testcase classname="src/tests/home.spec.tsx" name="Home - Main home Content &gt; should render the button Text" time="0">
+        </testcase>
+    </testsuite>
+</testsuites>
+"],"fullName":"Home - Main home Content should render the alt image Text","status":"pending","title":"should render the alt image Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Home - Main home Content"],"fullName":"Home - Main home Content should render the title Text","status":"pending","title":"should render the title Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Home - Main home Content"],"fullName":"Home - Main home Content should render the paragraph Text","status":"pending","title":"should render the paragraph Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Home - Main home Content"],"fullName":"Home - Main home Content should render the button Text","status":"pending","title":"should render the button Text","failureMessages":[],"meta":{}}],"startTime":1728655537211,"endTime":1728655537211,"status":"passed","message":"","name":"C:/Users/pedro/OneDrive/Área de Trabalho/Curso-Dev-Quest/projetos/Mine/portfolio-2024/src/tests/home.spec.tsx"}]}

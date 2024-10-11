@@ -7,7 +7,7 @@ export function Header() {
                         <a href="#home">Home</a>
                     </li>
                     <li className="header_aside_link">
-                        <a href="#about">About</a>
+                        <a href="#about">Skills</a>
                     </li>
                     <li className="header_aside_link">
                         <a href="#projects">Projects</a>
