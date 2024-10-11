@@ -7,13 +7,13 @@ export function Footer(){
         <footer className="footer">
             <ul className="footer_nets_list">
                 <li className="footer_nets_item">
-                   <a><FaInstagram /></a>
+                   <a data-testid='instagram'><FaInstagram /></a>
                 </li>
                 <li className="footer_nets_item">
-                    <a><FaLinkedin /></a>
+                    <a data-testid='linkedin'><FaLinkedin /></a>
                 </li>
                 <li className="footer_nets_item">
-                    <a><FaGithub /></a>
+                    <a data-testid='github'><FaGithub /></a>
                 </li>
             </ul>
             <a onClick={() => scrollTo({ top: 0, behavior: 'smooth'})} className="arrow"><BsArrowUp /></a>

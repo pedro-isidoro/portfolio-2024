@@ -1,253 +1,154 @@
-{"numTotalTestSuites":13,"numPassedTestSuites":13,"numFailedTestSuites":0,"numPendingTestSuites":0,"numTotalTests":55,"n    <testsuite name="faq.spec.tsx" timestamp="2024-10-11T19:15:51.259Z" hostname="Pedro" tests="21" failures="0" errors="0" skipped="0" time="0.9066285">
-        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; should render the Ttle Text" time="0.1199117">
-            <system-out>
-menu-icon-1
-menu-icon-2
-menu-icon-3
-menu-icon-4
-menu-icon-5
-
-            </system-out>
-        </testcase>
-        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; should render the first Faq Question Text" time="0.0235775">
-            <system-out>
-menu-icon-1
-menu-icon-2
-menu-icon-3
-menu-icon-4
-menu-icon-5
-
-            </system-out>
-        </testcase>
-        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; should render the second Faq Question Text" time="0.0129854">
-            <system-out>
-menu-icon-1
-menu-icon-2
-menu-icon-3
-menu-icon-4
-menu-icon-5
-
-            </system-out>
-        </testcase>
-        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; should render the third Faq Question Text" time="0.0127299">
-            <system-out>
-menu-icon-1
-menu-icon-2
-menu-icon-3
-menu-icon-4
-menu-icon-5
-
-            </system-out>
-        </testcase>
-        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; should render the fourth Faq Question Text" time="0.011085">
-            <system-out>
-menu-icon-1
-menu-icon-2
-menu-icon-3
-menu-icon-4
-menu-icon-5
-
-            </system-out>
-        </testcase>
-        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; should render the fifth Faq Question Text" time="0.0076508">
-            <system-out>
-menu-icon-1
-menu-icon-2
-menu-icon-3
-menu-icon-4
-menu-icon-5
-
-            </system-out>
-        </testcase>
-        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; OpenIcon &gt; should render the first Faq OpenIcon Text" time="0.0073522">
-            <system-out>
-menu-icon-1
-menu-icon-2
-menu-icon-3
-menu-icon-4
-menu-icon-5
-
-            </system-out>
-        </testcase>
-        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; OpenIcon &gt; should render the second Faq OpenIcon Text" time="0.0068127">
-            <system-out>
-menu-icon-1
-menu-icon-2
-menu-icon-3
-menu-icon-4
-menu-icon-5
-
-            </system-out>
-        </testcase>
-        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; OpenIcon &gt; should render the third Faq OpenIcon Text" time="0.0082599">
-            <system-out>
-menu-icon-1
-menu-icon-2
-menu-icon-3
-menu-icon-4
-menu-icon-5
-
-            </system-out>
-        </testcase>
-        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; OpenIcon &gt; should render the fourth Faq OpenIcon Text" time="0.0082171">
-            <system-out>
-menu-icon-1
-menu-icon-2
-menu-icon-3
-menu-icon-4
-menu-icon-5
-
-            </system-out>
-        </testcase>
-        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; OpenIcon &gt; should render the fifith Faq OpenIcon Text" time="0.0074103">
-            <system-out>
-menu-icon-1
-menu-icon-2
-menu-icon-3
-menu-icon-4
-menu-icon-5
-
-            </system-out>
-        </testcase>
-        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; CloseIcon &gt; should render the first Faq CloseIcon Text" time="0.0994484">
-            <system-out>
-menu-icon-1
-menu-icon-2
-menu-icon-3
-menu-icon-4
-menu-icon-5
-
-menu-icon-1
-
-            </system-out>
-        </testcase>
-        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; CloseIcon &gt; should render the second Faq CloseIcon Text" time="0.0773438">
-            <system-out>
-menu-icon-1
-menu-icon-2
-menu-icon-3
-menu-icon-4
-menu-icon-5
-
-menu-icon-2
-
-            </system-out>
-        </testcase>
-        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; CloseIcon &gt; should render the third Faq CloseIcon Text" time="0.0621716">
-            <system-out>
-menu-icon-1
-menu-icon-2
-menu-icon-3
-menu-icon-4
-menu-icon-5
-
-menu-icon-3
-
-            </system-out>
-        </testcase>
-        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; CloseIcon &gt; should render the fourth Faq CloseIcon Text" time="0.0503222">
-            <system-out>
-menu-icon-1
-menu-icon-2
-menu-icon-3
-menu-icon-4
-menu-icon-5
-
-menu-icon-4
-
-            </system-out>
-        </testcase>
-        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; CloseIcon &gt; should render the fifith Faq CloseIcon Text" time="0.0747689">
-            <system-out>
-menu-icon-1
-menu-icon-2
-menu-icon-3
-menu-icon-4
-menu-icon-5
-
-menu-icon-5
-
-            </system-out>
-        </testcase>
-        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; answer &gt; should render the first Faq Answer Text" time="0.0612532">
-            <system-out>
-menu-icon-1
-menu-icon-2
-menu-icon-3
-menu-icon-4
-menu-icon-5
-
-menu-icon-1
-
-            </system-out>
-        </testcase>
-        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; answer &gt; should render the second Faq Answer Text" time="0.0623621">
-            <system-out>
-menu-icon-1
-menu-icon-2
-menu-icon-3
-menu-icon-4
-menu-icon-5
-
-menu-icon-2
-
-            </system-out>
-        </testcase>
-        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; answer &gt; should render the third Faq Answer Text" time="0.0464204">
-            <system-out>
-menu-icon-1
-menu-icon-2
-menu-icon-3
-menu-icon-4
-menu-icon-5
-
-menu-icon-3
-
-            </system-out>
-        </testcase>
-        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; answer &gt; should render the fourth Faq Answer Text" time="0.080451">
-            <system-out>
-menu-icon-1
-menu-icon-2
-menu-icon-3
-menu-icon-4
-menu-icon-5
-
-menu-icon-4
-
-            </system-out>
-        </testcase>
-        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; answer &gt; should render the fifith Faq Answer Text" time="0.061148">
-            <system-out>
-menu-icon-1
-menu-icon-2
-menu-icon-3
-menu-icon-4
-menu-icon-5
-
-menu-icon-5
-
-            </system-out>
-        </testcase>
-    </testsuite>
-    <testsuite name="header.spec.tsx" timestamp="2024-10-11T19:15:51.270Z" hostname="Pedro" tests="5" failures="0" errors="0" skipped="5" time="0">
-        <testcase classname="header.spec.tsx" name="Header - Main Aside Content &gt; should render the header Text Button" time="0">
+{"numTotalTestSuites":19,"numPassedTestSuites":17,"numFailedTestSuites":2,"numPendingTestSuites":0,"numTotalTests":68,"nu    <testsuite name="contact.spec.tsx" timestamp="2024-10-11T21:19:24.178Z" hostname="Pedro" tests="10" failures="0" errors="0" skipped="10" time="0">
+        <testcase classname="contact.spec.tsx" name="Contact - Main Formulary Content &gt; should render the Ttle Text" time="0">
             <skipped/>
         </testcase>
-        <testcase classname="header.spec.tsx" name="Header - Main Aside Content &gt; should render the skills Text Button" time="0">
+        <testcase classname="contact.spec.tsx" name="Contact - Main Formulary Content &gt; Titles &gt; should render the first Input Title" time="0">
             <skipped/>
         </testcase>
-        <testcase classname="header.spec.tsx" name="Header - Main Aside Content &gt; should render the header Projects Button" time="0">
+        <testcase classname="contact.spec.tsx" name="Contact - Main Formulary Content &gt; Titles &gt; should render the second Input Title" time="0">
             <skipped/>
         </testcase>
-        <testcase classname="header.spec.tsx" name="Header - Main Aside Content &gt; should render the header Text Button" time="0">
+        <testcase classname="contact.spec.tsx" name="Contact - Main Formulary Content &gt; Titles &gt; should render the third Input Title" time="0">
             <skipped/>
         </testcase>
-        <testcase classname="header.spec.tsx" name="Header - Main Aside Content &gt; should render the header Text Button" time="0">
+        <testcase classname="contact.spec.tsx" name="Contact - Main Formulary Content &gt; Titles &gt; should render the textarea Title" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="contact.spec.tsx" name="Contact - Main Formulary Content &gt; Placeholders &gt; should render the first Placeholder Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="contact.spec.tsx" name="Contact - Main Formulary Content &gt; Placeholders &gt; should render the second Placeholder Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="contact.spec.tsx" name="Contact - Main Formulary Content &gt; Placeholders &gt; should render the third Placeholder Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="contact.spec.tsx" name="Contact - Main Formulary Content &gt; Placeholders &gt; should render the Placeholder Text " time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="contact.spec.tsx" name="Contact - Main Formulary Content &gt; should render the form button" time="0">
             <skipped/>
         </testcase>
     </testsuite>
-    <testsuite name="home.spec.tsx" timestamp="2024-10-11T19:15:51.271Z" hostname="Pedro" tests="4" failures="0" errors="0" skipped="4" time="0">
+    <testsuite name="faq.spec.tsx" timestamp="2024-10-11T21:19:24.186Z" hostname="Pedro" tests="21" failures="0" errors="0" skipped="21" time="0">
+        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; should render the Ttle Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; should render the first Faq Question Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; should render the second Faq Question Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; should render the third Faq Question Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; should render the fourth Faq Question Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; should render the fifth Faq Question Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; OpenIcon &gt; should render the first Faq OpenIcon Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; OpenIcon &gt; should render the second Faq OpenIcon Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; OpenIcon &gt; should render the third Faq OpenIcon Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; OpenIcon &gt; should render the fourth Faq OpenIcon Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; OpenIcon &gt; should render the fifith Faq OpenIcon Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; CloseIcon &gt; should render the first Faq CloseIcon Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; CloseIcon &gt; should render the second Faq CloseIcon Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; CloseIcon &gt; should render the third Faq CloseIcon Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; CloseIcon &gt; should render the fourth Faq CloseIcon Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; CloseIcon &gt; should render the fifith Faq CloseIcon Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; answer &gt; should render the first Faq Answer Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; answer &gt; should render the second Faq Answer Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; answer &gt; should render the third Faq Answer Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; answer &gt; should render the fourth Faq Answer Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; answer &gt; should render the fifith Faq Answer Text" time="0">
+            <skipped/>
+        </testcase>
+    </testsuite>
+    <testsuite name="footer.spec.tsx" timestamp="2024-10-11T21:19:24.190Z" hostname="Pedro" tests="3" failures="3" errors="0" skipped="0" time="0.0902912">
+        <testcase classname="footer.spec.tsx" name="Header - Main Aside Content &gt; should render the Instagram Icon Link" time="0.0677652">
+            <failure message="[2mexpect([22m[31mreceived[39m[2m).toBeInTheDocument()[22m
+
+[31mreceived[39m value must be an HTMLElement or an SVGElement.
+" type="Error">
+Error: expect(received).toBeInTheDocument()
+
+received value must be an HTMLElement or an SVGElement.
+
+ ❯ footer.spec.tsx:9:52
+
+            </failure>
+        </testcase>
+        <testcase classname="footer.spec.tsx" name="Header - Main Aside Content &gt; should render the LinkedIn Icon Link" time="0.0110842">
+            <failure message="[2mexpect([22m[31mreceived[39m[2m).toBeInTheDocument()[22m
+
+[31mreceived[39m value must be an HTMLElement or an SVGElement.
+" type="Error">
+Error: expect(received).toBeInTheDocument()
+
+received value must be an HTMLElement or an SVGElement.
+
+ ❯ footer.spec.tsx:13:51
+
+            </failure>
+        </testcase>
+        <testcase classname="footer.spec.tsx" name="Header - Main Aside Content &gt; should render the GitHub Icon Link" time="0.0091902">
+            <failure message="[2mexpect([22m[31mreceived[39m[2m).toBeInTheDocument()[22m
+
+[31mreceived[39m value must be an HTMLElement or an SVGElement.
+" type="Error">
+Error: expect(received).toBeInTheDocument()
+
+received value must be an HTMLElement or an SVGElement.
+
+ ❯ footer.spec.tsx:17:49
+
+            </failure>
+        </testcase>
+    </testsuite>
+    <testsuite name="header.spec.tsx" timestamp="2024-10-11T21:19:24.194Z" hostname="Pedro" tests="5" failures="0" errors="0" skipped="0" time="0.1127736">
+        <testcase classname="header.spec.tsx" name="Header - Main Aside Content &gt; should render the header Home Button" time="0.0564045">
+        </testcase>
+        <testcase classname="header.spec.tsx" name="Header - Main Aside Content &gt; should render the skills Skills Button" time="0.0232235">
+        </testcase>
+        <testcase classname="header.spec.tsx" name="Header - Main Aside Content &gt; should render the header Projects Button" time="0.0096606">
+        </testcase>
+        <testcase classname="header.spec.tsx" name="Header - Main Aside Content &gt; should render the header Faq Button" time="0.0072284">
+        </testcase>
+        <testcase classname="header.spec.tsx" name="Header - Main Aside Content &gt; should render the header Contact Button" time="0.0136669">
+        </testcase>
+    </testsuite>
+    <testsuite name="home.spec.tsx" timestamp="2024-10-11T21:19:24.196Z" hostname="Pedro" tests="4" failures="0" errors="0" skipped="4" time="0">
         <testcase classname="home.spec.tsx" name="Home - Main home Content &gt; should render the alt image Text" time="0">
             <skipped/>
         </testcase>
@@ -261,7 +162,7 @@ menu-icon-5
             <skipped/>
         </testcase>
     </testsuite>
-    <testsuite name="projects.spec.tsx" timestamp="2024-10-11T19:15:51.272Z" hostname="Pedro" tests="9" failures="0" errors="0" skipped="9" time="0">
+    <testsuite name="projects.spec.tsx" timestamp="2024-10-11T21:19:24.197Z" hostname="Pedro" tests="9" failures="0" errors="0" skipped="9" time="0">
         <testcase classname="projects.spec.tsx" name="Projects - Main Projects Content &gt; should render the first project image card" time="0">
             <skipped/>
         </testcase>
@@ -290,7 +191,7 @@ menu-icon-5
             <skipped/>
         </testcase>
     </testsuite>
-    <testsuite name="skills.spec.tsx" timestamp="2024-10-11T19:15:51.274Z" hostname="Pedro" tests="16" failures="0" errors="0" skipped="16" time="0">
+    <testsuite name="skills.spec.tsx" timestamp="2024-10-11T21:19:24.200Z" hostname="Pedro" tests="16" failures="0" errors="0" skipped="16" time="0">
         <testcase classname="skills.spec.tsx" name="Skills - Main Skills Content &gt; should render the title Text" time="0">
             <skipped/>
         </testcase>
@@ -341,4 +242,4 @@ menu-icon-5
         </testcase>
     </testsuite>
 </testsuites>
-s":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Router card","status":"skipped","title":"should render the skill Router card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Hook card","status":"skipped","title":"should render the skill Hook card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Tailwind card","status":"skipped","title":"should render the skill Tailwind card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Redux card","status":"skipped","title":"should render the skill Redux card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill TS card","status":"skipped","title":"should render the skill TS card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Sass card","status":"skipped","title":"should render the skill Sass card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Vitest card","status":"skipped","title":"should render the skill Vitest card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Testing card","status":"skipped","title":"should render the skill Testing card","failureMessages":[],"meta":{}}],"startTime":1728674147227,"endTime":1728674147227,"status":"passed","message":"","name":"C:/Users/pedro/OneDrive/Área de Trabalho/Curso-Dev-Quest/projetos/Mine/portfolio-2024/src/tests/skills.spec.tsx"}]}
+unner/dist/index.js:1142:15)"],"meta":{}}],"startTime":1728681563350,"endTime":1728681563438.1902,"status":"failed","message":"","name":"C:/Users/pedro/OneDrive/Área de Trabalho/Curso-Dev-Quest/projetos/Mine/portfolio-2024/src/tests/footer.spec.tsx"},{"assertionResults":[{"ancestorTitles":["Header - Main Aside Content"],"fullName":"Header - Main Aside Content should render the header Home Button","status":"passed","title":"should render the header Home Button","duration":56.4045000000001,"failureMessages":[],"meta":{}},{"ancestorTitles":["Header - Main Aside Content"],"fullName":"Header - Main Aside Content should render the skills Skills Button","status":"passed","title":"should render the skills Skills Button","duration":23.223500000000058,"failureMessages":[],"meta":{}},{"ancestorTitles":["Header - Main Aside Content"],"fullName":"Header - Main Aside Content should render the header Projects Button","status":"passed","title":"should render the header Projects Button","duration":9.660600000000159,"failureMessages":[],"meta":{}},{"ancestorTitles":["Header - Main Aside Content"],"fullName":"Header - Main Aside Content should render the header Faq Button","status":"passed","title":"should render the header Faq Button","duration":7.228399999999965,"failureMessages":[],"meta":{}},{"ancestorTitles":["Header - Main Aside Content"],"fullName":"Header - Main Aside Content should render the header Contact Button","status":"passed","title":"should render the header Contact Button","duration":13.666899999999714,"failureMessages":[],"meta":{}}],"startTime":1728681563237,"endTime":1728681563347.667,"status":"passed","message":"","name":"C:/Users/pedro/OneDrive/Área de Trabalho/Curso-Dev-Quest/projetos/Mine/portfolio-2024/src/tests/header.spec.tsx"},{"assertionResults":[{"ancestorTitles":["Home - Main home Content"],"fullName":"Home - Main home Content should render the alt image Text","status":"skipped","title":"should render the alt image Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Home - Main home Content"],"fullName":"Home - Main home Content should render the title Text","status":"skipped","title":"should render the title Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Home - Main home Content"],"fullName":"Home - Main home Content should render the paragraph Text","status":"skipped","title":"should render the paragraph Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Home - Main home Content"],"fullName":"Home - Main home Content should render the button Text","status":"skipped","title":"should render the button Text","failureMessages":[],"meta":{}}],"startTime":1728681560519,"endTime":1728681560519,"status":"passed","message":"","name":"C:/Users/pedro/OneDrive/Área de Trabalho/Curso-Dev-Quest/projetos/Mine/portfolio-2024/src/tests/home.spec.tsx"},{"assertionResults":[{"ancestorTitles":["Projects - Main Projects Content"],"fullName":"Projects - Main Projects Content should render the first project image card","status":"skipped","title":"should render the first project image card","failureMessages":[],"meta":{}},{"ancestorTitles":["Projects - Main Projects Content"],"fullName":"Projects - Main Projects Content should render the second project image card","status":"skipped","title":"should render the second project image card","failureMessages":[],"meta":{}},{"ancestorTitles":["Projects - Main Projects Content"],"fullName":"Projects - Main Projects Content should render the third project image card","status":"skipped","title":"should render the third project image card","failureMessages":[],"meta":{}},{"ancestorTitles":["Projects - Main Projects Content"],"fullName":"Projects - Main Projects Content should render the first project stacks card","status":"skipped","title":"should render the first project stacks card","failureMessages":[],"meta":{}},{"ancestorTitles":["Projects - Main Projects Content"],"fullName":"Projects - Main Projects Content should render the second project stacks card","status":"skipped","title":"should render the second project stacks card","failureMessages":[],"meta":{}},{"ancestorTitles":["Projects - Main Projects Content"],"fullName":"Projects - Main Projects Content should render the third project stacks card","status":"skipped","title":"should render the third project stacks card","failureMessages":[],"meta":{}},{"ancestorTitles":["Projects - Main Projects Content"],"fullName":"Projects - Main Projects Content should render the first project paragraph card","status":"skipped","title":"should render the first project paragraph card","failureMessages":[],"meta":{}},{"ancestorTitles":["Projects - Main Projects Content"],"fullName":"Projects - Main Projects Content should render the second project paragraph card","status":"skipped","title":"should render the second project paragraph card","failureMessages":[],"meta":{}},{"ancestorTitles":["Projects - Main Projects Content"],"fullName":"Projects - Main Projects Content should render the third project paragraph card","status":"skipped","title":"should render the third project paragraph card","failureMessages":[],"meta":{}}],"startTime":1728681560519,"endTime":1728681560519,"status":"passed","message":"","name":"C:/Users/pedro/OneDrive/Área de Trabalho/Curso-Dev-Quest/projetos/Mine/portfolio-2024/src/tests/projects.spec.tsx"},{"assertionResults":[{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the title Text","status":"skipped","title":"should render the title Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the subtitle Text","status":"skipped","title":"should render the subtitle Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill github card","status":"skipped","title":"should render the skill github card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill HTML card","status":"skipped","title":"should render the skill HTML card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill CSS card","status":"skipped","title":"should render the skill CSS card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill JS card","status":"skipped","title":"should render the skill JS card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill React card","status":"skipped","title":"should render the skill React card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Styled card","status":"skipped","title":"should render the skill Styled card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Router card","status":"skipped","title":"should render the skill Router card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Hook card","status":"skipped","title":"should render the skill Hook card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Tailwind card","status":"skipped","title":"should render the skill Tailwind card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Redux card","status":"skipped","title":"should render the skill Redux card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill TS card","status":"skipped","title":"should render the skill TS card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Sass card","status":"skipped","title":"should render the skill Sass card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Vitest card","status":"skipped","title":"should render the skill Vitest card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Testing card","status":"skipped","title":"should render the skill Testing card","failureMessages":[],"meta":{}}],"startTime":1728681560519,"endTime":1728681560519,"status":"passed","message":"","name":"C:/Users/pedro/OneDrive/Área de Trabalho/Curso-Dev-Quest/projetos/Mine/portfolio-2024/src/tests/skills.spec.tsx"}]}
