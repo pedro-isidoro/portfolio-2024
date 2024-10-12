@@ -12,12 +12,12 @@
     }
 }
 
-.faq-items {
+.faq_items {
     @include displayFlex(column, center, center);
     gap: 1rem;
     width: 100%;
 
-    & .faq-item {
+    & .faq_item {
         @include displayFlex(column, center, start);
         gap: 1rem;
         width: 100%;
@@ -47,7 +47,7 @@
         }
     }
 
-    & .faq-item.active {
+    & .faq_item.active {
         & .answer {
             display: flex;
         }

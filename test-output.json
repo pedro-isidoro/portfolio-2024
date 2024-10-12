@@ -1,25 +1,234 @@
-{"numTotalTestSuites":4,"numPassedTestSu<testsuites name="vitest tests" tests="9" failures="0" errors="0" time="5.57">
-    <testsuite name="src/tests/header.spec.tsx" timestamp="2024-10-11T14:05:42.786Z" hostname="Pedro" tests="5" failures="0" errors="0" skipped="0" time="0">
-        <testcase classname="src/tests/header.spec.tsx" name="Header - Main Aside Content &gt; should render the header Text Button" time="0">
+{"numTotalTestSuites":5,"numPassedTestSu<testsuites name="vitest tests" tests="21" failures="0" errors="0" time="191.808">
+    <testsuite name="src/tests/faq.spec.tsx" timestamp="2024-10-12T15:36:18.584Z" hostname="Pedro" tests="21" failures="0" errors="0" skipped="0" time="0.6382778">
+        <testcase classname="src/tests/faq.spec.tsx" name="Faq - Main Faq Content &gt; should render the Title Text" time="0.0459588">
+            <system-out>
+menu-icon-1
+menu-icon-2
+menu-icon-3
+menu-icon-4
+menu-icon-5
+
+            </system-out>
         </testcase>
-        <testcase classname="src/tests/header.spec.tsx" name="Header - Main Aside Content &gt; should render the skills Text Button" time="0">
+        <testcase classname="src/tests/faq.spec.tsx" name="Faq - Main Faq Content &gt; should render the first Faq Question Text" time="0.0086506">
+            <system-out>
+menu-icon-1
+menu-icon-2
+menu-icon-3
+menu-icon-4
+menu-icon-5
+
+            </system-out>
         </testcase>
-        <testcase classname="src/tests/header.spec.tsx" name="Header - Main Aside Content &gt; should render the header Projects Button" time="0">
+        <testcase classname="src/tests/faq.spec.tsx" name="Faq - Main Faq Content &gt; should render the second Faq Question Text" time="0.0052875">
+            <system-out>
+menu-icon-1
+menu-icon-2
+menu-icon-3
+menu-icon-4
+menu-icon-5
+
+            </system-out>
         </testcase>
-        <testcase classname="src/tests/header.spec.tsx" name="Header - Main Aside Content &gt; should render the header Text Button" time="0">
+        <testcase classname="src/tests/faq.spec.tsx" name="Faq - Main Faq Content &gt; should render the third Faq Question Text" time="0.0073479">
+            <system-out>
+menu-icon-1
+menu-icon-2
+menu-icon-3
+menu-icon-4
+menu-icon-5
+
+            </system-out>
         </testcase>
-        <testcase classname="src/tests/header.spec.tsx" name="Header - Main Aside Content &gt; should render the header Text Button" time="0">
+        <testcase classname="src/tests/faq.spec.tsx" name="Faq - Main Faq Content &gt; should render the fourth Faq Question Text" time="0.0062125">
+            <system-out>
+menu-icon-1
+menu-icon-2
+menu-icon-3
+menu-icon-4
+menu-icon-5
+
+            </system-out>
         </testcase>
-    </testsuite>
-    <testsuite name="src/tests/home.spec.tsx" timestamp="2024-10-11T14:05:42.791Z" hostname="Pedro" tests="4" failures="0" errors="0" skipped="0" time="0">
-        <testcase classname="src/tests/home.spec.tsx" name="Home - Main home Content &gt; should render the alt image Text" time="0">
+        <testcase classname="src/tests/faq.spec.tsx" name="Faq - Main Faq Content &gt; should render the fifth Faq Question Text" time="0.00737">
+            <system-out>
+menu-icon-1
+menu-icon-2
+menu-icon-3
+menu-icon-4
+menu-icon-5
+
+            </system-out>
         </testcase>
-        <testcase classname="src/tests/home.spec.tsx" name="Home - Main home Content &gt; should render the title Text" time="0">
+        <testcase classname="src/tests/faq.spec.tsx" name="Faq - Main Faq Content &gt; OpenIcon &gt; should render the first Faq OpenIcon Text" time="0.0067534">
+            <system-out>
+menu-icon-1
+menu-icon-2
+menu-icon-3
+menu-icon-4
+menu-icon-5
+
+            </system-out>
         </testcase>
-        <testcase classname="src/tests/home.spec.tsx" name="Home - Main home Content &gt; should render the paragraph Text" time="0">
+        <testcase classname="src/tests/faq.spec.tsx" name="Faq - Main Faq Content &gt; OpenIcon &gt; should render the second Faq OpenIcon Text" time="0.0052487">
+            <system-out>
+menu-icon-1
+menu-icon-2
+menu-icon-3
+menu-icon-4
+menu-icon-5
+
+            </system-out>
         </testcase>
-        <testcase classname="src/tests/home.spec.tsx" name="Home - Main home Content &gt; should render the button Text" time="0">
+        <testcase classname="src/tests/faq.spec.tsx" name="Faq - Main Faq Content &gt; OpenIcon &gt; should render the third Faq OpenIcon Text" time="0.0070637">
+            <system-out>
+menu-icon-1
+menu-icon-2
+menu-icon-3
+menu-icon-4
+menu-icon-5
+
+            </system-out>
+        </testcase>
+        <testcase classname="src/tests/faq.spec.tsx" name="Faq - Main Faq Content &gt; OpenIcon &gt; should render the fourth Faq OpenIcon Text" time="0.004513">
+            <system-out>
+menu-icon-1
+menu-icon-2
+menu-icon-3
+menu-icon-4
+menu-icon-5
+
+            </system-out>
+        </testcase>
+        <testcase classname="src/tests/faq.spec.tsx" name="Faq - Main Faq Content &gt; OpenIcon &gt; should render the fifith Faq OpenIcon Text" time="0.0052541">
+            <system-out>
+menu-icon-1
+menu-icon-2
+menu-icon-3
+menu-icon-4
+menu-icon-5
+
+            </system-out>
+        </testcase>
+        <testcase classname="src/tests/faq.spec.tsx" name="Faq - Main Faq Content &gt; CloseIcon &gt; should render the first Faq CloseIcon Text when button hited" time="0.0965327">
+            <system-out>
+menu-icon-1
+menu-icon-2
+menu-icon-3
+menu-icon-4
+menu-icon-5
+
+menu-icon-1
+
+            </system-out>
+        </testcase>
+        <testcase classname="src/tests/faq.spec.tsx" name="Faq - Main Faq Content &gt; CloseIcon &gt; should render the second Faq CloseIcon Text when button hited" time="0.0494849">
+            <system-out>
+menu-icon-1
+menu-icon-2
+menu-icon-3
+menu-icon-4
+menu-icon-5
+
+menu-icon-2
+
+            </system-out>
+        </testcase>
+        <testcase classname="src/tests/faq.spec.tsx" name="Faq - Main Faq Content &gt; CloseIcon &gt; should render the third Faq CloseIcon Text when button hited" time="0.0416252">
+            <system-out>
+menu-icon-1
+menu-icon-2
+menu-icon-3
+menu-icon-4
+menu-icon-5
+
+menu-icon-3
+
+            </system-out>
+        </testcase>
+        <testcase classname="src/tests/faq.spec.tsx" name="Faq - Main Faq Content &gt; CloseIcon &gt; should render the fourth Faq CloseIcon Text when button hited" time="0.0495367">
+            <system-out>
+menu-icon-1
+menu-icon-2
+menu-icon-3
+menu-icon-4
+menu-icon-5
+
+menu-icon-4
+
+            </system-out>
+        </testcase>
+        <testcase classname="src/tests/faq.spec.tsx" name="Faq - Main Faq Content &gt; CloseIcon &gt; should render the fifith Faq CloseIcon Text when button hited" time="0.0584667">
+            <system-out>
+menu-icon-1
+menu-icon-2
+menu-icon-3
+menu-icon-4
+menu-icon-5
+
+menu-icon-5
+
+            </system-out>
+        </testcase>
+        <testcase classname="src/tests/faq.spec.tsx" name="Faq - Main Faq Content &gt; answer &gt; should render the first Faq Answer Text when button hited" time="0.0324603">
+            <system-out>
+menu-icon-1
+menu-icon-2
+menu-icon-3
+menu-icon-4
+menu-icon-5
+
+menu-icon-1
+
+            </system-out>
+        </testcase>
+        <testcase classname="src/tests/faq.spec.tsx" name="Faq - Main Faq Content &gt; answer &gt; should render the second Faq Answer Text when button hited" time="0.0405195">
+            <system-out>
+menu-icon-1
+menu-icon-2
+menu-icon-3
+menu-icon-4
+menu-icon-5
+
+menu-icon-2
+
+            </system-out>
+        </testcase>
+        <testcase classname="src/tests/faq.spec.tsx" name="Faq - Main Faq Content &gt; answer &gt; should render the third Faq Answer Text when button hited" time="0.0658345">
+            <system-out>
+menu-icon-1
+menu-icon-2
+menu-icon-3
+menu-icon-4
+menu-icon-5
+
+menu-icon-3
+
+            </system-out>
+        </testcase>
+        <testcase classname="src/tests/faq.spec.tsx" name="Faq - Main Faq Content &gt; answer &gt; should render the fourth Faq Answer Text when button hited" time="0.0410716">
+            <system-out>
+menu-icon-1
+menu-icon-2
+menu-icon-3
+menu-icon-4
+menu-icon-5
+
+menu-icon-4
+
+            </system-out>
+        </testcase>
+        <testcase classname="src/tests/faq.spec.tsx" name="Faq - Main Faq Content &gt; answer &gt; should render the fifith Faq Answer Text when button hited" time="0.0501779">
+            <system-out>
+menu-icon-1
+menu-icon-2
+menu-icon-3
+menu-icon-4
+menu-icon-5
+
+menu-icon-5
+
+            </system-out>
         </testcase>
     </testsuite>
 </testsuites>
-"],"fullName":"Home - Main home Content should render the alt image Text","status":"pending","title":"should render the alt image Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Home - Main home Content"],"fullName":"Home - Main home Content should render the title Text","status":"pending","title":"should render the title Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Home - Main home Content"],"fullName":"Home - Main home Content should render the paragraph Text","status":"pending","title":"should render the paragraph Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Home - Main home Content"],"fullName":"Home - Main home Content should render the button Text","status":"pending","title":"should render the button Text","failureMessages":[],"meta":{}}],"startTime":1728655537211,"endTime":1728655537211,"status":"passed","message":"","name":"C:/Users/pedro/OneDrive/Área de Trabalho/Curso-Dev-Quest/projetos/Mine/portfolio-2024/src/tests/home.spec.tsx"}]}

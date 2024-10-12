@@ -5,7 +5,7 @@ import { describe, it, expect } from 'vitest'
 import { userEvent } from '../../vitest-setup'
 
 describe('Faq - Main Faq Content', async () => {
-    it('should render the Ttle Text', ()=>{
+    it('should render the Title Text', ()=>{
         render(<Faq />)
         expect(screen.getByText(/FAQ/i)).toBeInTheDocument()
     })
@@ -57,7 +57,7 @@ describe('Faq - Main Faq Content', async () => {
         })
     })
     describe('CloseIcon', async()=>{
-        it('should render the first Faq CloseIcon Text', async ()=>{
+        it('should render the first Faq CloseIcon Text when button hited', async ()=>{
             render(<Faq />)
             // Clica no ícone de menu para abrir o menu
             const menuIcon = screen.getByTestId("menu-icon-1")
@@ -69,7 +69,7 @@ describe('Faq - Main Faq Content', async () => {
             expect(closeIcon).toBeInTheDocument()
             })
         })
-        it('should render the second Faq CloseIcon Text', async()=>{
+        it('should render the second Faq CloseIcon Text when button hited', async()=>{
             render(<Faq />)
             const menuIcon = screen.getByTestId("menu-icon-2")
             await userEvent.click(menuIcon)
@@ -79,7 +79,7 @@ describe('Faq - Main Faq Content', async () => {
             expect(closeIcon).toBeInTheDocument()
             })
         })
-        it('should render the third Faq CloseIcon Text', async()=>{
+        it('should render the third Faq CloseIcon Text when button hited', async()=>{
             render(<Faq />)
             const menuIcon = screen.getByTestId("menu-icon-3")
             await userEvent.click(menuIcon)
@@ -89,7 +89,7 @@ describe('Faq - Main Faq Content', async () => {
             expect(closeIcon).toBeInTheDocument()
             })
         })
-        it('should render the fourth Faq CloseIcon Text', async()=>{
+        it('should render the fourth Faq CloseIcon Text when button hited', async()=>{
             render(<Faq />)
             const menuIcon = screen.getByTestId("menu-icon-4")
             await userEvent.click(menuIcon)
@@ -99,7 +99,7 @@ describe('Faq - Main Faq Content', async () => {
             expect(closeIcon).toBeInTheDocument()
             })
         })
-        it('should render the fifith Faq CloseIcon Text', async()=>{
+        it('should render the fifith Faq CloseIcon Text when button hited', async()=>{
             render(<Faq />)
             const menuIcon = screen.getByTestId("menu-icon-5")
             await userEvent.click(menuIcon)
@@ -111,7 +111,7 @@ describe('Faq - Main Faq Content', async () => {
         })
     })
     describe('answer', async()=>{
-        it('should render the first Faq Answer Text', async()=>{
+        it('should render the first Faq Answer Text when button hited', async()=>{
             render(<Faq />)
             const menuIcon = screen.getByTestId("menu-icon-1")
             await userEvent.click(menuIcon)
@@ -121,7 +121,7 @@ describe('Faq - Main Faq Content', async () => {
             expect(closeIcon).toBeInTheDocument()
             })
         })
-        it('should render the second Faq Answer Text', async()=>{
+        it('should render the second Faq Answer Text when button hited', async()=>{
             render(<Faq />)
             const menuIcon = screen.getByTestId("menu-icon-2")
             await userEvent.click(menuIcon)
@@ -131,7 +131,7 @@ describe('Faq - Main Faq Content', async () => {
             expect(closeIcon).toBeInTheDocument()
             })
         })
-        it('should render the third Faq Answer Text', async()=>{
+        it('should render the third Faq Answer Text when button hited', async()=>{
             render(<Faq />)
             const menuIcon = screen.getByTestId("menu-icon-3")
             await userEvent.click(menuIcon)
@@ -141,7 +141,7 @@ describe('Faq - Main Faq Content', async () => {
             expect(closeIcon).toBeInTheDocument()
             })
         })
-        it('should render the fourth Faq Answer Text', async()=>{
+        it('should render the fourth Faq Answer Text when button hited', async()=>{
             render(<Faq />)
             const menuIcon = screen.getByTestId("menu-icon-4")
             await userEvent.click(menuIcon)
@@ -151,7 +151,7 @@ describe('Faq - Main Faq Content', async () => {
             expect(closeIcon).toBeInTheDocument()
             })
         })
-        it('should render the fifith Faq Answer Text', async()=>{
+        it('should render the fifith Faq Answer Text when button hited', async()=>{
             render(<Faq />)
             const menuIcon = screen.getByTestId("menu-icon-5")
             await userEvent.click(menuIcon)

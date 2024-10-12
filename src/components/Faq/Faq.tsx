@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { IoMdArrowDropdown, IoMdArrowDropup } from "react-icons/io";
+import { GsapFunction } from "@/components/ts/GsapFunction";
 
 interface Props{
     FaqQuestion: string,
@@ -15,25 +16,29 @@ export function Faq(){
         setActive(!active);
         };
     
-        const classeFaq1 = active ? 'faq-item active' : 'faq-item';
+        const classeFaq1 = active ? 'faq_item active' : 'faq_item '+"question-"+props.id;
         const testId = "menu-icon-"+props.id
         const testIdClose = "close-icon-"+props.id
-        console.log(testId)
+
         return (
         <li className={classeFaq1} onClick={handleItemClick}>
             {active ? (
                 <h3 className="question">{props.FaqQuestion}<IoMdArrowDropup className="question_icon" data-testid={testIdClose}/></h3>
             ) : (
-                <h3 className="question">{props.FaqQuestion}<IoMdArrowDropdown className="question_icon" data-testid={testId}/></h3>
+                <h3 className={"question question-"+props.id}>{props.FaqQuestion}<IoMdArrowDropdown className="question_icon" data-testid={testId}/></h3>
             )}
             <p className="answer">{props.FaqAnswer}</p>
         </li>
         );
     }
+    for(let i=1; i<=5; i++){
+        let triggerValue = ".question-"+i
+        GsapFunction({triggerFather: ".faq_items", trigger: triggerValue, markers: false, start: "top 750px", end: "bottom 670px"});
+    }
     return(
         <section className="faq" id="faq">
             <h2>FAQ</h2>
-            <ul className="faq-items">
+            <ul className="faq_items">
                 <FaqItem FaqQuestion="Quem eu sou?" FaqAnswer="Eu me chamo Pedro Luis de Souza Isidoro, tenho 21 anos e atualmente estudante do 6° semestre de Ciência da Computação." id='1' />
                 <FaqItem FaqQuestion="Se eu Trabalho?" FaqAnswer="Infelizmente não, atualmente estou em busca da minha 1° oportunidade de emprego, onde possa colocar em prática tudo que estudo e continuo aprendendo." id='2' />
                 <FaqItem FaqQuestion="Onde Estudo?" FaqAnswer="Realizo minha faculdade na UAM - Anhembi Morumbi, e como acréscimo desde 2023 venho estudando desenvolvimento web front end, com mentoria e suporte, do curso Dev Quest - Dev em dobro." id='3' />
