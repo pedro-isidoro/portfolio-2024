@@ -3,7 +3,6 @@ import { Contact } from '@/components/Contact/Contact'
 import { render, screen, waitFor } from '@testing-library/react'
 import { describe, it, expect } from 'vitest'
 import { userEvent } from '../../vitest-setup'
-import { error } from 'console'
 
 describe('Contact - Main Formulary Content', async () => {
     it('should render the Ttle Text', ()=>{
