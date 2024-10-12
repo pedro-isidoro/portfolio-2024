@@ -3,6 +3,7 @@ import { Contact } from '@/components/Contact/Contact'
 import { render, screen, waitFor } from '@testing-library/react'
 import { describe, it, expect } from 'vitest'
 import { userEvent } from '../../vitest-setup'
+import { error } from 'console'
 
 describe('Contact - Main Formulary Content', async () => {
     it('should render the Ttle Text', ()=>{
@@ -48,5 +49,49 @@ describe('Contact - Main Formulary Content', async () => {
     it('should render the form button', ()=>{
         render(<Contact />)
         expect(screen.getByText('Cadastrar')).toBeInTheDocument()
+    })
+    describe('Should error e success messages', () => {
+        it('should display error when fields are empty', async ()=>{
+            render(<Contact />)
+            const submitButton = screen.getByText('Cadastrar');
+            await userEvent.click(submitButton)
+    
+            await waitFor(() => {
+                const errorMessage = screen.getAllByText(/Este campo é Obrigatório/i);
+                expect(errorMessage.length).toBe(4);
+            })
+        })
+        it('should submit the form when name field are invalid', async () => {
+            render(<Contact />);
+            
+            // Simulando o preenchimento dos campos
+            await userEvent.type(screen.getByPlaceholderText('Digite o seu nome'), 'Pedro 12');
+            
+            // Clicar no botão de enviar
+            const submitButton = screen.getByText('Cadastrar');
+            await userEvent.click(submitButton);
+            
+            // Espera pela mensagem de sucesso
+            await waitFor(() => {
+                const errorMessage = screen.getByText(/apenas letras/i);
+                expect(errorMessage).toBeInTheDocument();
+            });
+        });
+        it('should submit the form when telefone field are invalid', async () => {
+            render(<Contact />);
+            
+            
+            await userEvent.type(screen.getByPlaceholderText('Digite o seu número 11 9xxxxxxxx'), '119g');
+            
+            // Clicar no botão de enviar
+            const submitButton = screen.getByText('Cadastrar');
+            await userEvent.click(submitButton);
+            
+            // Espera pela mensagem de sucesso
+            await waitFor(() => {
+                const errorMessage = screen.getByText(/Insira um número/i);
+                expect(errorMessage).toBeInTheDocument();
+            });
+        });
     })
 })

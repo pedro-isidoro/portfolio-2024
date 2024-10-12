@@ -30,7 +30,7 @@ export function Contact(){
         .then((response) => {
             // backgroundForm.classList.toggle('formSend');
             console.log("Email Enviado", response.status, response.text);
-            setWasSend(!wasSend)
+            setWasSend(true)
             // return window.location.href = "/formulario-enviado";
         }, (err) => {
             console.log("Erro:", err);
