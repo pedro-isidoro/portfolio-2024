@@ -5,7 +5,7 @@
         "src": "images/projects/js/dev-burguer.png",
         "stack": "HTML | JS | Tailwind | React",
         "paragraph": "Uma Landing Page no formato de uma simples e-commerce de uma hamburgueria qualquer. Usar da boa prática no códio jsx e na sua estilização com tailwindocss. A princípio era apenas para práticar a estilização com essa biblioteca, mas ao criar uma landing Page com produtos em sua vitrine, me desafiei á adicionar cada um dos produtos, clicando no seu botão, ao carrinho.",
-        "vercelLink": "https://lnkd.in/d4UfPPsy"
+        "vercelLink": "https://dev-burguer-phi.vercel.app"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "src": "images/projects/js/my-pokedex.png",
         "stack": "HTML | JS | Tailwind | React | Redux | API",
         "paragraph": "O objetivo desse projeto é realizar o desafio técnico final do módulo de React do curso DevQuest. Criei 3 páginas: Home - Com uma apresentação simples do que é Pokémon. Pokedex - Onde apresento um input para filtragem por nome, os cards de apresentação dos pokemons. Perfil do pokemon - Onde apresento suas informações.",
-        "vercelLink": "https://lnkd.in/dEcizF2w"
+        "vercelLink": "https://my-pokedex-gamma.vercel.app"
     },
     {
         "id": 3,
@@ -21,6 +21,6 @@
         "src": "images/projects/ts/my-photos.png",
         "stack": "HTML | TS | React | Tailwind | Vitest",
         "paragraph": "Um projeto simples, para apresentação de minhas fotos pessoais e autorais. Mostrando looks de roupa e poses. Neste projeto, o realizei com o intuito de praticar testes unitários. Os quais não consegui realizar com jest, mas sim com a ajuda do Framework 'Jest'.",
-        "vercelLink": "https://lnkd.in/dkGyW27m"
+        "vercelLink": "https://photos-portfolio-nu.vercel.app"
     }
 ]

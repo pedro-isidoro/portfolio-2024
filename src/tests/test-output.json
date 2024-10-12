@@ -1,4 +1,4 @@
-{"numTotalTestSuites":20,"numPassedTestSuites":17,"numFailedTestSuites":3,"numPendingTestSuites":0,"numTotalTests":73,"nu    <testsuite name="contact.spec.tsx" timestamp="2024-10-12T18:10:47.595Z" hostname="Pedro" tests="14" failures="1" errors="0" skipped="13" time="1.3662269">
+{"numTotalTestSuites":23,"numPassedTestSuites":23,"numFailedTestSuites":0,"numPendingTestSuites":0,"numTotalTests":73,"nu    <testsuite name="contact.spec.tsx" timestamp="2024-10-12T20:01:59.580Z" hostname="Pedro" tests="13" failures="0" errors="0" skipped="13" time="0">
         <testcase classname="contact.spec.tsx" name="Contact - Main Formulary Content &gt; should render the Ttle Text" time="0">
             <skipped/>
         </testcase>
@@ -35,541 +35,11 @@
         <testcase classname="contact.spec.tsx" name="Contact - Main Formulary Content &gt; Should error e success messages &gt; should submit the form when name field are invalid" time="0">
             <skipped/>
         </testcase>
-        <testcase classname="contact.spec.tsx" name="Contact - Main Formulary Content &gt; Should error e success messages &gt; should submit the form when email field are invalid" time="1.3630549">
-            <failure message="Unable to find an element with the text: /Apenas Emails válidos/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
-
-Ignored nodes: comments, script, style
-[36m&lt;body&gt;[39m
-  [36m&lt;div&gt;[39m
-    [36m&lt;section[39m
-      [33mclass[39m=[32m&quot;contact&quot;[39m
-      [33mid[39m=[32m&quot;contact&quot;[39m
-    [36m&gt;[39m
-      [36m&lt;div[39m
-        [33mclass[39m=[32m&quot;contact_card&quot;[39m
-      [36m&gt;[39m
-        [36m&lt;div[39m
-          [33mclass[39m=[32m&quot;contact_card_title&quot;[39m
-        [36m&gt;[39m
-          [36m&lt;h3&gt;[39m
-            [0mEntre em contato comigo![0m
-          [36m&lt;/h3&gt;[39m
-        [36m&lt;/div&gt;[39m
-        [36m&lt;form&gt;[39m
-          [36m&lt;div[39m
-            [33mclass[39m=[32m&quot;formulary&quot;[39m
-          [36m&gt;[39m
-            [36m&lt;div[39m
-              [33mclass[39m=[32m&quot;item_formulary&quot;[39m
-            [36m&gt;[39m
-              [36m&lt;label[39m
-                [33mfor[39m=[32m&quot;username&quot;[39m
-              [36m&gt;[39m
-                [0mNome  [0m
-                [36m&lt;span&gt;[39m
-                  [0m*[0m
-                [36m&lt;/span&gt;[39m
-              [36m&lt;/label&gt;[39m
-              [36m&lt;input[39m
-                [33mautocomplete[39m=[32m&quot;on&quot;[39m
-                [33mclass[39m=[32m&quot;input&quot;[39m
-                [33mid[39m=[32m&quot;username&quot;[39m
-                [33mname[39m=[32m&quot;name&quot;[39m
-                [33mplaceholder[39m=[32m&quot;Digite o seu nome&quot;[39m
-                [33mtype[39m=[32m&quot;text&quot;[39m
-              [36m/&gt;[39m
-              [36m&lt;p[39m
-                [33mclass[39m=[32m&quot;aviso&quot;[39m
-              [36m/&gt;[39m
-            [36m&lt;/div&gt;[39m
-            [36m&lt;div[39m
-              [33mclass[39m=[32m&quot;item_formulary&quot;[39m
-            [36m&gt;[39m
-              [36m&lt;label[39m
-                [33mfor[39m=[32m&quot;email&quot;[39m
-              [36m&gt;[39m
-                [0mEmail [0m
-                [36m&lt;span&gt;[39m
-                  [0m*[0m
-                [36m&lt;/span&gt;[39m
-              [36m&lt;/label&gt;[39m
-              [36m&lt;input[39m
-                [33mautocomplete[39m=[32m&quot;on&quot;[39m
-                [33mclass[39m=[32m&quot;input&quot;[39m
-                [33mid[39m=[32m&quot;email&quot;[39m
-                [33mname[39m=[32m&quot;email&quot;[39m
-                [33mplaceholder[39m=[32m&quot;Digite o seu email&quot;[39m
-                [33mtype[39m=[32m&quot;email&quot;[39m
-              [36m/&gt;[39m
-              [36m&lt;p[39m
-                [33mclass[39m=[32m&quot;aviso&quot;[39m
-              [36m/&gt;[39m
-            [36m&lt;/div&gt;[39m
-            [36m&lt;div[39m
-              [33mclass[39m=[32m&quot;item_formulary&quot;[39m
-            [36m&gt;[39m
-              [36m&lt;label[39m
-                [33mfor[39m=[32m&quot;telephone&quot;[39m
-              [36m&gt;[39m
-                [0mTelefone [0m
-                [36m&lt;span&gt;[39m
-                  [0m*[0m
-                [36m&lt;/span&gt;[39m
-              [36m&lt;/label&gt;[39m
-              [36m&lt;input[39m
-                [33mautocomplete[39m=[32m&quot;on&quot;[39m
-                [33mclass[39m=[32m&quot;input&quot;[39m
-                [33mid[39m=[32m&quot;telephone&quot;[39m
-                [33mname[39m=[32m&quot;telephone&quot;[39m
-                [33mplaceholder[39m=[32m&quot;Digite o seu número 11 9xxxxxxxx&quot;[39m
-                [33mtype[39m=[32m&quot;tel&quot;[39m
-              [36m/&gt;[39m
-              [36m&lt;p[39m
-                [33mclass[39m=[32m&quot;aviso&quot;[39m
-              [36m/&gt;[39m
-            [36m&lt;/div&gt;[39m
-            [36m&lt;div[39m
-              [33mclass[39m=[32m&quot;item_formulary&quot;[39m
-            [36m&gt;[39m
-              [36m&lt;label[39m
-                [33mfor[39m=[32m&quot;opnion&quot;[39m
-              [36m&gt;[39m
-                [0mO que gostaria de me dizer? [0m
-                [36m&lt;span&gt;[39m
-                  [0m*[0m
-                [36m&lt;/span&gt;[39m
-              [36m&lt;/label&gt;[39m
-              [36m&lt;textarea[39m
-                [33mautocomplete[39m=[32m&quot;on&quot;[39m
-                [33mclass[39m=[32m&quot;textarea&quot;[39m
-                [33mid[39m=[32m&quot;opnion&quot;[39m
-                [33mname[39m=[32m&quot;opnion&quot;[39m
-                [33mplaceholder[39m=[32m&quot;Me conte sobre&quot;[39m
-              [36m/&gt;[39m
-              [36m&lt;p[39m
-                [33mclass[39m=[32m&quot;aviso&quot;[39m
-              [36m/&gt;[39m
-            [36m&lt;/div&gt;[39m
-          [36m&lt;/div&gt;[39m
-          [36m&lt;div[39m
-            [33mclass[39m=[32m&quot;register&quot;[39m
-          [36m&gt;[39m
-            [36m&lt;button[39m
-              [33mid[39m=[32m&quot;btn-send&quot;[39m
-              [33mtype[39m=[32m&quot;submit&quot;[39m
-            [36m&gt;[39m
-              [0mCadastrar[0m
-            [36m&lt;/button&gt;[39m
-          [36m&lt;/div&gt;[39m
-        [36m&lt;/form&gt;[39m
-      [36m&lt;/div&gt;[39m
-    [36m&lt;/section&gt;[39m
-  [36m&lt;/div&gt;[39m
-[36m&lt;/body&gt;[39m
-
-Ignored nodes: comments, script, style
-[36m&lt;html&gt;[39m
-  [36m&lt;head /&gt;[39m
-  [36m&lt;body&gt;[39m
-    [36m&lt;div&gt;[39m
-      [36m&lt;section[39m
-        [33mclass[39m=[32m&quot;contact&quot;[39m
-        [33mid[39m=[32m&quot;contact&quot;[39m
-      [36m&gt;[39m
-        [36m&lt;div[39m
-          [33mclass[39m=[32m&quot;contact_card&quot;[39m
-        [36m&gt;[39m
-          [36m&lt;div[39m
-            [33mclass[39m=[32m&quot;contact_card_title&quot;[39m
-          [36m&gt;[39m
-            [36m&lt;h3&gt;[39m
-              [0mEntre em contato comigo![0m
-            [36m&lt;/h3&gt;[39m
-          [36m&lt;/div&gt;[39m
-          [36m&lt;form&gt;[39m
-            [36m&lt;div[39m
-              [33mclass[39m=[32m&quot;formulary&quot;[39m
-            [36m&gt;[39m
-              [36m&lt;div[39m
-                [33mclass[39m=[32m&quot;item_formulary&quot;[39m
-              [36m&gt;[39m
-                [36m&lt;label[39m
-                  [33mfor[39m=[32m&quot;username&quot;[39m
-                [36m&gt;[39m
-                  [0mNome  [0m
-                  [36m&lt;span&gt;[39m
-                    [0m*[0m
-                  [36m&lt;/span&gt;[39m
-                [36m&lt;/label&gt;[39m
-                [36m&lt;input[39m
-                  [33mautocomplete[39m=[32m&quot;on&quot;[39m
-                  [33mclass[39m=[32m&quot;input&quot;[39m
-                  [33mid[39m=[32m&quot;username&quot;[39m
-                  [33mname[39m=[32m&quot;name&quot;[39m
-                  [33mplaceholder[39m=[32m&quot;Digite o seu nome&quot;[39m
-                  [33mtype[39m=[32m&quot;text&quot;[39m
-                [36m/&gt;[39m
-                [36m&lt;p[39m
-                  [33mclass[39m=[32m&quot;aviso&quot;[39m
-                [36m/&gt;[39m
-              [36m&lt;/div&gt;[39m
-              [36m&lt;div[39m
-                [33mclass[39m=[32m&quot;item_formulary&quot;[39m
-              [36m&gt;[39m
-                [36m&lt;label[39m
-                  [33mfor[39m=[32m&quot;email&quot;[39m
-                [36m&gt;[39m
-                  [0mEmail [0m
-                  [36m&lt;span&gt;[39m
-                    [0m*[0m
-                  [36m&lt;/span&gt;[39m
-                [36m&lt;/label&gt;[39m
-                [36m&lt;input[39m
-                  [33mautocomplete[39m=[32m&quot;on&quot;[39m
-                  [33mclass[39m=[32m&quot;input&quot;[39m
-                  [33mid[39m=[32m&quot;email&quot;[39m
-                  [33mname[39m=[32m&quot;email&quot;[39m
-                  [33mplaceholder[39m=[32m&quot;Digite o seu email&quot;[39m
-                  [33mtype[39m=[32m&quot;email&quot;[39m
-                [36m/&gt;[39m
-                [36m&lt;p[39m
-                  [33mclass[39m=[32m&quot;aviso&quot;[39m
-                [36m/&gt;[39m
-              [36m&lt;/div&gt;[39m
-              [36m&lt;div[39m
-                [33mclass[39m=[32m&quot;item_formulary&quot;[39m
-              [36m&gt;[39m
-                [36m&lt;label[39m
-                  [33mfor[39m=[32m&quot;telephone&quot;[39m
-                [36m&gt;[39m
-                  [0mTelefone [0m
-                  [36m&lt;span&gt;[39m
-                    [0m*[0m
-                  [36m&lt;/span&gt;[39m
-                [36m&lt;/label&gt;[39m
-                [36m&lt;input[39m
-                  [33mautocomplete[39m=[32m&quot;on&quot;[39m
-                  [33mclass[39m=[32m&quot;input&quot;[39m
-                  [33mid[39m=[32m&quot;telephone&quot;[39m
-                  [33mname[39m=[32m&quot;telephone&quot;[39m
-                  [33mplaceholder[39m=[32m&quot;Digite o seu número 11 9xxxxxxxx&quot;[39m
-                  [33mtype[39m=[32m&quot;tel&quot;[39m
-                [36m/&gt;[39m
-                [36m&lt;p[39m
-                  [33mclass[39m=[32m&quot;aviso&quot;[39m
-                [36m/&gt;[39m
-              [36m&lt;/div&gt;[39m
-              [36m&lt;div[39m
-                [33mclass[39m=[32m&quot;item_formulary&quot;[39m
-              [36m&gt;[39m
-                [36m&lt;label[39m
-                  [33mfor[39m=[32m&quot;opnion&quot;[39m
-                [36m&gt;[39m
-                  [0mO que gostaria de me dizer? [0m
-                  [36m&lt;span&gt;[39m
-                    [0m*[0m
-                  [36m&lt;/span&gt;[39m
-                [36m&lt;/label&gt;[39m
-                [36m&lt;textarea[39m
-                  [33mautocomplete[39m=[32m&quot;on&quot;[39m
-                  [33mclass[39m=[32m&quot;textarea&quot;[39m
-                  [33mid[39m=[32m&quot;opnion&quot;[39m
-                  [33mname[39m=[32m&quot;opnion&quot;[39m
-                  [33mplaceholder[39m=[32m&quot;Me conte sobre&quot;[39m
-                [36m/&gt;[39m
-                [36m&lt;p[39m
-                  [33mclass[39m=[32m&quot;aviso&quot;[39m
-                [36m/&gt;[39m
-              [36m&lt;/div&gt;[39m
-            [36m&lt;/div&gt;[39m
-            [36m&lt;div[39m
-              [33mclass[39m=[32m&quot;register&quot;[39m
-            [36m&gt;[39m
-              [36m&lt;button[39m
-                [33mid[39m=[32m&quot;btn-send&quot;[39m
-                [33mtype[39m=[32m&quot;submit&quot;[39m
-              [36m&gt;[39m
-                [0mCadastrar[0m
-              [36m&lt;/button&gt;[39m
-            [36m&lt;/div&gt;[39m
-          [36m&lt;/form&gt;[39m
-        [36m&lt;/div&gt;[39m
-      [36m&lt;/section&gt;[39m
-    [36m&lt;/div&gt;[39m
-  [36m&lt;/body&gt;[39m
-[36m&lt;/html&gt;[39m" type="TestingLibraryElementError">
-TestingLibraryElementError: Unable to find an element with the text: /Apenas Emails válidos/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
-
-Ignored nodes: comments, script, style
-&lt;body&gt;
-  &lt;div&gt;
-    &lt;section
-      class=&quot;contact&quot;
-      id=&quot;contact&quot;
-    &gt;
-      &lt;div
-        class=&quot;contact_card&quot;
-      &gt;
-        &lt;div
-          class=&quot;contact_card_title&quot;
-        &gt;
-          &lt;h3&gt;
-            Entre em contato comigo!
-          &lt;/h3&gt;
-        &lt;/div&gt;
-        &lt;form&gt;
-          &lt;div
-            class=&quot;formulary&quot;
-          &gt;
-            &lt;div
-              class=&quot;item_formulary&quot;
-            &gt;
-              &lt;label
-                for=&quot;username&quot;
-              &gt;
-                Nome  
-                &lt;span&gt;
-                  *
-                &lt;/span&gt;
-              &lt;/label&gt;
-              &lt;input
-                autocomplete=&quot;on&quot;
-                class=&quot;input&quot;
-                id=&quot;username&quot;
-                name=&quot;name&quot;
-                placeholder=&quot;Digite o seu nome&quot;
-                type=&quot;text&quot;
-              /&gt;
-              &lt;p
-                class=&quot;aviso&quot;
-              /&gt;
-            &lt;/div&gt;
-            &lt;div
-              class=&quot;item_formulary&quot;
-            &gt;
-              &lt;label
-                for=&quot;email&quot;
-              &gt;
-                Email 
-                &lt;span&gt;
-                  *
-                &lt;/span&gt;
-              &lt;/label&gt;
-              &lt;input
-                autocomplete=&quot;on&quot;
-                class=&quot;input&quot;
-                id=&quot;email&quot;
-                name=&quot;email&quot;
-                placeholder=&quot;Digite o seu email&quot;
-                type=&quot;email&quot;
-              /&gt;
-              &lt;p
-                class=&quot;aviso&quot;
-              /&gt;
-            &lt;/div&gt;
-            &lt;div
-              class=&quot;item_formulary&quot;
-            &gt;
-              &lt;label
-                for=&quot;telephone&quot;
-              &gt;
-                Telefone 
-                &lt;span&gt;
-                  *
-                &lt;/span&gt;
-              &lt;/label&gt;
-              &lt;input
-                autocomplete=&quot;on&quot;
-                class=&quot;input&quot;
-                id=&quot;telephone&quot;
-                name=&quot;telephone&quot;
-                placeholder=&quot;Digite o seu número 11 9xxxxxxxx&quot;
-                type=&quot;tel&quot;
-              /&gt;
-              &lt;p
-                class=&quot;aviso&quot;
-              /&gt;
-            &lt;/div&gt;
-            &lt;div
-              class=&quot;item_formulary&quot;
-            &gt;
-              &lt;label
-                for=&quot;opnion&quot;
-              &gt;
-                O que gostaria de me dizer? 
-                &lt;span&gt;
-                  *
-                &lt;/span&gt;
-              &lt;/label&gt;
-              &lt;textarea
-                autocomplete=&quot;on&quot;
-                class=&quot;textarea&quot;
-                id=&quot;opnion&quot;
-                name=&quot;opnion&quot;
-                placeholder=&quot;Me conte sobre&quot;
-              /&gt;
-              &lt;p
-                class=&quot;aviso&quot;
-              /&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div
-            class=&quot;register&quot;
-          &gt;
-            &lt;button
-              id=&quot;btn-send&quot;
-              type=&quot;submit&quot;
-            &gt;
-              Cadastrar
-            &lt;/button&gt;
-          &lt;/div&gt;
-        &lt;/form&gt;
-      &lt;/div&gt;
-    &lt;/section&gt;
-  &lt;/div&gt;
-&lt;/body&gt;
-
-Ignored nodes: comments, script, style
-&lt;html&gt;
-  &lt;head /&gt;
-  &lt;body&gt;
-    &lt;div&gt;
-      &lt;section
-        class=&quot;contact&quot;
-        id=&quot;contact&quot;
-      &gt;
-        &lt;div
-          class=&quot;contact_card&quot;
-        &gt;
-          &lt;div
-            class=&quot;contact_card_title&quot;
-          &gt;
-            &lt;h3&gt;
-              Entre em contato comigo!
-            &lt;/h3&gt;
-          &lt;/div&gt;
-          &lt;form&gt;
-            &lt;div
-              class=&quot;formulary&quot;
-            &gt;
-              &lt;div
-                class=&quot;item_formulary&quot;
-              &gt;
-                &lt;label
-                  for=&quot;username&quot;
-                &gt;
-                  Nome  
-                  &lt;span&gt;
-                    *
-                  &lt;/span&gt;
-                &lt;/label&gt;
-                &lt;input
-                  autocomplete=&quot;on&quot;
-                  class=&quot;input&quot;
-                  id=&quot;username&quot;
-                  name=&quot;name&quot;
-                  placeholder=&quot;Digite o seu nome&quot;
-                  type=&quot;text&quot;
-                /&gt;
-                &lt;p
-                  class=&quot;aviso&quot;
-                /&gt;
-              &lt;/div&gt;
-              &lt;div
-                class=&quot;item_formulary&quot;
-              &gt;
-                &lt;label
-                  for=&quot;email&quot;
-                &gt;
-                  Email 
-                  &lt;span&gt;
-                    *
-                  &lt;/span&gt;
-                &lt;/label&gt;
-                &lt;input
-                  autocomplete=&quot;on&quot;
-                  class=&quot;input&quot;
-                  id=&quot;email&quot;
-                  name=&quot;email&quot;
-                  placeholder=&quot;Digite o seu email&quot;
-                  type=&quot;email&quot;
-                /&gt;
-                &lt;p
-                  class=&quot;aviso&quot;
-                /&gt;
-              &lt;/div&gt;
-              &lt;div
-                class=&quot;item_formulary&quot;
-              &gt;
-                &lt;label
-                  for=&quot;telephone&quot;
-                &gt;
-                  Telefone 
-                  &lt;span&gt;
-                    *
-                  &lt;/span&gt;
-                &lt;/label&gt;
-                &lt;input
-                  autocomplete=&quot;on&quot;
-                  class=&quot;input&quot;
-                  id=&quot;telephone&quot;
-                  name=&quot;telephone&quot;
-                  placeholder=&quot;Digite o seu número 11 9xxxxxxxx&quot;
-                  type=&quot;tel&quot;
-                /&gt;
-                &lt;p
-                  class=&quot;aviso&quot;
-                /&gt;
-              &lt;/div&gt;
-              &lt;div
-                class=&quot;item_formulary&quot;
-              &gt;
-                &lt;label
-                  for=&quot;opnion&quot;
-                &gt;
-                  O que gostaria de me dizer? 
-                  &lt;span&gt;
-                    *
-                  &lt;/span&gt;
-                &lt;/label&gt;
-                &lt;textarea
-                  autocomplete=&quot;on&quot;
-                  class=&quot;textarea&quot;
-                  id=&quot;opnion&quot;
-                  name=&quot;opnion&quot;
-                  placeholder=&quot;Me conte sobre&quot;
-                /&gt;
-                &lt;p
-                  class=&quot;aviso&quot;
-                /&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div
-              class=&quot;register&quot;
-            &gt;
-              &lt;button
-                id=&quot;btn-send&quot;
-                type=&quot;submit&quot;
-              &gt;
-                Cadastrar
-              &lt;/button&gt;
-            &lt;/div&gt;
-          &lt;/form&gt;
-        &lt;/div&gt;
-      &lt;/section&gt;
-    &lt;/div&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
- ❯ Proxy.waitForWrapper ../../node_modules/@testing-library/dom/dist/wait-for.js:163:27
- ❯ contact.spec.tsx:90:19
-
-            </failure>
-        </testcase>
         <testcase classname="contact.spec.tsx" name="Contact - Main Formulary Content &gt; Should error e success messages &gt; should submit the form when telefone field are invalid" time="0">
             <skipped/>
         </testcase>
     </testsuite>
-    <testsuite name="faq.spec.tsx" timestamp="2024-10-12T18:10:47.608Z" hostname="Pedro" tests="21" failures="0" errors="0" skipped="21" time="0">
+    <testsuite name="faq.spec.tsx" timestamp="2024-10-12T20:01:59.590Z" hostname="Pedro" tests="21" failures="0" errors="0" skipped="21" time="0">
         <testcase classname="faq.spec.tsx" name="Faq - Main Faq Content &gt; should render the Title Text" time="0">
             <skipped/>
         </testcase>
@@ -634,7 +104,7 @@ Ignored nodes: comments, script, style
             <skipped/>
         </testcase>
     </testsuite>
-    <testsuite name="footer.spec.tsx" timestamp="2024-10-12T18:10:47.614Z" hostname="Pedro" tests="4" failures="0" errors="0" skipped="4" time="0">
+    <testsuite name="footer.spec.tsx" timestamp="2024-10-12T20:01:59.596Z" hostname="Pedro" tests="4" failures="0" errors="0" skipped="4" time="0">
         <testcase classname="footer.spec.tsx" name="Footer - Main Footer Content &gt; should render the Instagram Icon Link" time="0">
             <skipped/>
         </testcase>
@@ -648,7 +118,7 @@ Ignored nodes: comments, script, style
             <skipped/>
         </testcase>
     </testsuite>
-    <testsuite name="header.spec.tsx" timestamp="2024-10-12T18:10:47.615Z" hostname="Pedro" tests="5" failures="0" errors="0" skipped="5" time="0">
+    <testsuite name="header.spec.tsx" timestamp="2024-10-12T20:01:59.597Z" hostname="Pedro" tests="5" failures="0" errors="0" skipped="5" time="0">
         <testcase classname="header.spec.tsx" name="Header - Main Aside Content &gt; should render the header Home Button" time="0">
             <skipped/>
         </testcase>
@@ -665,7 +135,7 @@ Ignored nodes: comments, script, style
             <skipped/>
         </testcase>
     </testsuite>
-    <testsuite name="home.spec.tsx" timestamp="2024-10-12T18:10:47.617Z" hostname="Pedro" tests="4" failures="0" errors="0" skipped="4" time="0">
+    <testsuite name="home.spec.tsx" timestamp="2024-10-12T20:01:59.598Z" hostname="Pedro" tests="4" failures="0" errors="0" skipped="4" time="0">
         <testcase classname="home.spec.tsx" name="Home - Main home Content &gt; should render the alt image Text" time="0">
             <skipped/>
         </testcase>
@@ -679,36 +149,29 @@ Ignored nodes: comments, script, style
             <skipped/>
         </testcase>
     </testsuite>
-    <testsuite name="projects.spec.tsx" timestamp="2024-10-12T18:10:47.618Z" hostname="Pedro" tests="9" failures="0" errors="0" skipped="9" time="0">
-        <testcase classname="projects.spec.tsx" name="Projects - Main Projects Content &gt; should render the first project image card" time="0">
-            <skipped/>
+    <testsuite name="projects.spec.tsx" timestamp="2024-10-12T20:01:59.599Z" hostname="Pedro" tests="10" failures="0" errors="0" skipped="0" time="0.1806244">
+        <testcase classname="projects.spec.tsx" name="Projects - Main Projects Content &gt; Alt Text Images &gt; should render the first project image card" time="0.0602618">
         </testcase>
-        <testcase classname="projects.spec.tsx" name="Projects - Main Projects Content &gt; should render the second project image card" time="0">
-            <skipped/>
+        <testcase classname="projects.spec.tsx" name="Projects - Main Projects Content &gt; Alt Text Images &gt; should render the second project image card" time="0.0161325">
         </testcase>
-        <testcase classname="projects.spec.tsx" name="Projects - Main Projects Content &gt; should render the third project image card" time="0">
-            <skipped/>
+        <testcase classname="projects.spec.tsx" name="Projects - Main Projects Content &gt; Alt Text Images &gt; should render the third project image card" time="0.0135531">
         </testcase>
-        <testcase classname="projects.spec.tsx" name="Projects - Main Projects Content &gt; should render the first project stacks card" time="0">
-            <skipped/>
+        <testcase classname="projects.spec.tsx" name="Projects - Main Projects Content &gt; Stack &gt; should render the first project stacks card" time="0.0220093">
         </testcase>
-        <testcase classname="projects.spec.tsx" name="Projects - Main Projects Content &gt; should render the second project stacks card" time="0">
-            <skipped/>
+        <testcase classname="projects.spec.tsx" name="Projects - Main Projects Content &gt; Stack &gt; should render the second project stacks card" time="0.0121916">
         </testcase>
-        <testcase classname="projects.spec.tsx" name="Projects - Main Projects Content &gt; should render the third project stacks card" time="0">
-            <skipped/>
+        <testcase classname="projects.spec.tsx" name="Projects - Main Projects Content &gt; Stack &gt; should render the third project stacks card" time="0.0128603">
         </testcase>
-        <testcase classname="projects.spec.tsx" name="Projects - Main Projects Content &gt; should render the first project paragraph card" time="0">
-            <skipped/>
+        <testcase classname="projects.spec.tsx" name="Projects - Main Projects Content &gt; Paragraph text &gt; should render the first project paragraph card" time="0.01099">
         </testcase>
-        <testcase classname="projects.spec.tsx" name="Projects - Main Projects Content &gt; should render the second project paragraph card" time="0">
-            <skipped/>
+        <testcase classname="projects.spec.tsx" name="Projects - Main Projects Content &gt; Paragraph text &gt; should render the second project paragraph card" time="0.0084439">
         </testcase>
-        <testcase classname="projects.spec.tsx" name="Projects - Main Projects Content &gt; should render the third project paragraph card" time="0">
-            <skipped/>
+        <testcase classname="projects.spec.tsx" name="Projects - Main Projects Content &gt; Paragraph text &gt; should render the third project paragraph card" time="0.0088294">
+        </testcase>
+        <testcase classname="projects.spec.tsx" name="Projects - Main Projects Content &gt; should render the first project Vercel Links card" time="0.0096048">
         </testcase>
     </testsuite>
-    <testsuite name="skills.spec.tsx" timestamp="2024-10-12T18:10:47.620Z" hostname="Pedro" tests="16" failures="0" errors="0" skipped="16" time="0">
+    <testsuite name="skills.spec.tsx" timestamp="2024-10-12T20:01:59.601Z" hostname="Pedro" tests="16" failures="0" errors="0" skipped="16" time="0">
         <testcase classname="skills.spec.tsx" name="Skills - Main Skills Content &gt; should render the title Text" time="0">
             <skipped/>
         </testcase>
@@ -759,3 +222,4 @@ Ignored nodes: comments, script, style
         </testcase>
     </testsuite>
 </testsuites>
+ges":[],"meta":{}},{"ancestorTitles":["Projects - Main Projects Content","Stack"],"fullName":"Projects - Main Projects Content Stack should render the third project stacks card","status":"passed","title":"should render the third project stacks card","duration":12.860299999999825,"failureMessages":[],"meta":{}},{"ancestorTitles":["Projects - Main Projects Content","Paragraph text"],"fullName":"Projects - Main Projects Content Paragraph text should render the first project paragraph card","status":"passed","title":"should render the first project paragraph card","duration":10.990000000000236,"failureMessages":[],"meta":{}},{"ancestorTitles":["Projects - Main Projects Content","Paragraph text"],"fullName":"Projects - Main Projects Content Paragraph text should render the second project paragraph card","status":"passed","title":"should render the second project paragraph card","duration":8.443900000000212,"failureMessages":[],"meta":{}},{"ancestorTitles":["Projects - Main Projects Content","Paragraph text"],"fullName":"Projects - Main Projects Content Paragraph text should render the third project paragraph card","status":"passed","title":"should render the third project paragraph card","duration":8.829400000000078,"failureMessages":[],"meta":{}},{"ancestorTitles":["Projects - Main Projects Content"],"fullName":"Projects - Main Projects Content should render the first project Vercel Links card","status":"passed","title":"should render the first project Vercel Links card","duration":9.604800000000068,"failureMessages":[],"meta":{}}],"startTime":1728763318768,"endTime":1728763318946.6047,"status":"passed","message":"","name":"C:/Users/pedro/OneDrive/Área de Trabalho/Curso-Dev-Quest/projetos/Mine/portfolio-2024/src/tests/projects.spec.tsx"},{"assertionResults":[{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the title Text","status":"skipped","title":"should render the title Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the subtitle Text","status":"skipped","title":"should render the subtitle Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill github card","status":"skipped","title":"should render the skill github card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill HTML card","status":"skipped","title":"should render the skill HTML card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill CSS card","status":"skipped","title":"should render the skill CSS card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill JS card","status":"skipped","title":"should render the skill JS card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill React card","status":"skipped","title":"should render the skill React card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Styled card","status":"skipped","title":"should render the skill Styled card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Router card","status":"skipped","title":"should render the skill Router card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Hook card","status":"skipped","title":"should render the skill Hook card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Tailwind card","status":"skipped","title":"should render the skill Tailwind card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Redux card","status":"skipped","title":"should render the skill Redux card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill TS card","status":"skipped","title":"should render the skill TS card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Sass card","status":"skipped","title":"should render the skill Sass card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Vitest card","status":"skipped","title":"should render the skill Vitest card","failureMessages":[],"meta":{}},{"ancestorTitles":["Skills - Main Skills Content"],"fullName":"Skills - Main Skills Content should render the skill Testing card","status":"skipped","title":"should render the skill Testing card","failureMessages":[],"meta":{}}],"startTime":1728763315346,"endTime":1728763315346,"status":"passed","message":"","name":"C:/Users/pedro/OneDrive/Área de Trabalho/Curso-Dev-Quest/projetos/Mine/portfolio-2024/src/tests/skills.spec.tsx"}]}

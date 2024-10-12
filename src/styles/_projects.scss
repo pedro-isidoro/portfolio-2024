@@ -24,8 +24,8 @@
 
 //Projec Details
 .ProjectDetails_card {
-    width: 42rem;
-    height: 50rem;
+    width: 44rem;
+    height: 54rem;
     padding: 2rem;
     & .ProjectDetails_card_infos {
         @include displayFlex(column, center, center);
@@ -36,13 +36,12 @@
 
         & img {
             width: 100%;
-            height: 20rem;
+            height: 23rem;
             border-radius: 1.2rem;
         }
     }
     @include respond-to(large) {
-        // height: 35rem;
-        width: 45rem;
+        width: 50rem;
         & .ProjectDetails_card_infos {
             & img {
                 width: 100%;
@@ -72,9 +71,21 @@
     & .ProjectDetails_card_info_p {
         text-align: justify;
     }
+
+    & .ProjectDetails_card_infos_link {
+        color: var(--quaternary-color);
+        font-size: 1.6rem;
+
+        &:hover {
+            color: var(--quinternary-color);
+        }
+    }
+
     @include respond-to(large) {
         gap: 2rem;
-        & .ProjectDetails_card_info_stack, span{
+
+        & .ProjectDetails_card_info_stack,
+        span {
             font-size: 1.8rem;
         }
     }
