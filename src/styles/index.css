@@ -105,6 +105,18 @@
   height: 15rem;
   border-radius: 50%;
 }
+@media (min-width: 768px) {
+  .home .home_image img {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+@media (min-width: 1024px) {
+  .home .home_image img {
+    width: 25rem;
+    height: 25rem;
+  }
+}
 
 .home_introducing {
   display: flex;

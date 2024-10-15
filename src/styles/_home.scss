@@ -10,6 +10,14 @@
         width: 15rem;
         height: 15rem;
         border-radius: 50%;
+        @include respond-to(medium){
+            width: 20rem;
+            height: 20rem;
+        }
+        @include respond-to(large){
+            width: 25rem;
+            height: 25rem;
+        }
     }
 }
 

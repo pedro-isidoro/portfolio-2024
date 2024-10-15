@@ -34,7 +34,7 @@ export function Home() {
                 <p>Um estudante de TI, estudando para se tornar um dos melhores  Desenvolvedores Web Front end</p>
             </div>
             <div className="home_image">
-                <img src="images/me-in-the-sun.jpg" alt="Profile image mine" />
+                <img src="images/Foto-minha.jpg" alt="Profile image mine" />
             </div>
         </section>
     )
