@@ -55,6 +55,7 @@
   width: 100%;
   height: 100%;
   padding: 0.8rem;
+  gap: 0.5rem;
   background: var(--secundary-color);
 }
 .header_aside .header_aside_links .header_aside_link {
@@ -64,19 +65,19 @@
   color: var(--quaternary-color);
   font-size: 1.6rem;
 }
-.header_aside .header_aside_links .header_aside_link:hover {
+.header_aside .header_aside_links .header_aside_link.actived, .header_aside .header_aside_links .header_aside_link:hover {
   cursor: pointer;
   border-radius: 2rem;
   background: var(--quaternary-color);
 }
-.header_aside .header_aside_links .header_aside_link:hover a {
+.header_aside .header_aside_links .header_aside_link.actived a, .header_aside .header_aside_links .header_aside_link:hover a {
   color: var(--secundary-color);
 }
 @media (min-width: 600px) {
   .header_aside .header_aside_links {
     border-radius: 4rem;
     height: auto;
-    width: 75%;
+    width: 80%;
   }
 }
 @media (min-width: 768px) {
@@ -96,7 +97,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  height: calc(100vh + 9rem);
   padding: 2rem;
   gap: 2rem;
 }
@@ -282,6 +283,11 @@
 .projects .projects_title {
   font-size: 2.6rem;
 }
+.projects .projects_loading_message {
+  font-size: 2rem;
+  padding: 4rem 0;
+  color: var(--quinternary-color);
+}
 
 .projects_content_list {
   width: 100%;
@@ -320,7 +326,6 @@
 }
 .ProjectDetails_card .ProjectDetails_card_infos img {
   width: 100%;
-  height: 23rem;
   border-radius: 1.2rem;
 }
 @media (min-width: 1024px) {
@@ -451,7 +456,7 @@
   color: var(--quaternary-color);
 }
 .contact .contact_card .contact_card_title {
-  font-size: 3rem;
+  font-size: 3.4rem;
 }
 .contact .contact_card form {
   display: flex;

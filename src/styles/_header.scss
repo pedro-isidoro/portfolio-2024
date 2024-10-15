@@ -20,6 +20,7 @@
     width: 100%;
     height: 100%;
     padding: 0.8rem;
+    gap: 0.5rem;
     background: var(--secundary-color);
     & .header_aside_link{
         padding: 0.8rem 2rem;
@@ -27,19 +28,19 @@
             color: var(--quaternary-color);
             font-size: 1.6rem;
         }
-        &:hover{
-            cursor: pointer;
-            border-radius: 2rem;
-            background: var(--quaternary-color);
-            & a{
-                color: var(--secundary-color);
-            }
+    }
+    & .header_aside_link.actived, .header_aside_link:hover{
+        cursor: pointer;
+        border-radius: 2rem;
+        background: var(--quaternary-color);
+        & a{
+            color: var(--secundary-color);
         }
     }
     @include respond-to(small) {
         border-radius: 4rem;
         height: auto;
-        width: 75%;
+        width: 80%;
     }
     @include respond-to(medium) {
         width: 65%;

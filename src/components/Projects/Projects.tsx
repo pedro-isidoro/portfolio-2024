@@ -25,7 +25,7 @@ export function Projects(){
                             <ProjectDetails details={project}/>
                         </li>
                     ))
-                ) : (<></>)}
+                ) : (<p className="projects_loading_message">Loading the Projects Cards...</p>)}
             </ul>
         </section>
     )

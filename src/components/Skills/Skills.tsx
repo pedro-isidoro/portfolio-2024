@@ -8,7 +8,7 @@ import { GsapFunction } from "@/components/ts/GsapFunction";
 export function Skills(){
     GsapFunction({triggerFather: ".about_texts", trigger: ".about_texts_hardSkill", markers: false, start: "top 600px", end: "bottom 500px"});
     return (
-        <section className="about" id="about">
+        <section className="about" id="skills">
             <h2 className="about_title">My Skills</h2>
             <h3>Lista de tecnologias</h3>
             <div className="about_texts">
