@@ -11,9 +11,9 @@
 }
 
 :root {
-  --primary-color: #FCFCFC;
-  --secundary-color: rgba(164, 168, 173, 0.7176470588);
-  --terciary-color: #A7A9AD;
+  --primary-color: #F2F4F3;
+  --secundary-color: rgba(195, 200, 206, 0.7254901961);
+  --terciary-color: #4e5461;
   --quaternary-color: #030716;
   --quinternary-color: #078d07;
 }
@@ -336,6 +336,11 @@
     width: 100%;
   }
 }
+@media (max-width: 450px) {
+  .ProjectDetails_card {
+    width: 100%;
+  }
+}
 
 .ProjectDetails_card_info {
   display: flex;
@@ -416,13 +421,23 @@
   align-items: center;
   width: 100%;
   color: var(--terciary-color);
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 .faq_items .faq_item .question :hover {
   cursor: pointer;
 }
 .faq_items .faq_item .question .question_icon {
   font-size: 3rem;
+}
+@media (min-width: 768px) {
+  .faq_items .faq_item .question {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 450px) {
+  .faq_items .faq_item .question {
+    font-size: 1.9rem;
+  }
 }
 .faq_items .faq_item .answer {
   display: none;
