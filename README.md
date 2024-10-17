@@ -32,8 +32,10 @@
 
 
 ## Visual Final
-<video alt="Project Image" controls>
-    <source src="./src/images/portfólio.mp4" type="video/mp4">
-    <source src="./src/images/Portfólio-2024.webm" type="video/webm">
-    Your browser does not support the video tag.
-</video>
+<img src="./src/images/image-1.png" alt="Imagem do projetos" style="width:45%;"/>
+<img src="./src/images/image-2.png" alt="Imagem do projetos" style="width:45%;"/>
+<br/>
+<img src="./src/images/image-3.png" alt="Imagem do projetos" style="width:45%;"/>
+<img src="./src/images/image-4.png" alt="Imagem do projetos" style="width:45%;"/>
+<br/>
+<img src="./src/images/image-5.png" alt="Imagem do projetos" style="width:45%;"/>
