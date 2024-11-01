@@ -290,12 +290,13 @@
 }
 
 .projects_content_list {
-  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  gap: 1rem;
   flex-wrap: wrap;
+  width: 100%;
 }
 .projects_content_list li {
   display: flex;
@@ -310,8 +311,8 @@
 }
 
 .ProjectDetails_card {
-  width: 44rem;
-  height: 54rem;
+  min-width: 44rem;
+  min-height: 54rem;
   padding: 2rem;
 }
 .ProjectDetails_card .ProjectDetails_card_infos {
@@ -356,6 +357,10 @@
 .ProjectDetails_card_info .ProjectDetails_card_info_p {
   font-size: 1.6rem;
   color: var(--terciary-color);
+}
+.ProjectDetails_card_info .ProjectDetails_card_info_title {
+  font-size: 1.8rem;
+  padding-bottom: 1rem;
 }
 .ProjectDetails_card_info span {
   font-size: 1.6rem;

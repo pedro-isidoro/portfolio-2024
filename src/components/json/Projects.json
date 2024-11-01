@@ -1,26 +1,26 @@
 [
     {
         "id": 1,
-        "title": "Dev Burguer",
-        "src": "images/projects/js/dev-burguer.webp",
-        "stack": "HTML | JS | Tailwind | React",
-        "paragraph": "Uma Landing Page no formato de uma simples e-commerce de uma hamburgueria qualquer. Usar da boa prática no códio jsx e na sua estilização com tailwindocss. A princípio era apenas para práticar a estilização com essa biblioteca, mas ao criar uma landing Page com produtos em sua vitrine, me desafiei á adicionar cada um dos produtos, clicando no seu botão, ao carrinho.",
-        "vercelLink": "https://dev-burguer-phi.vercel.app"
+        "title": "Pedro's Burguer",
+        "src": "images/projects/ts/pedrosburguer.png",
+        "stack": "HTML | TS | Tailwind | React | Zustand",
+        "paragraph": "Uma Landing Page no formato de uma de uma hamburgueria de alto padrão. Usar da boa prática no códio tsx e na sua estilização com tailwindocss. Além de se ultilizar do Zustand para o controle de estados.",
+        "vercelLink": "https://pedros-burguer.vercel.app"
     },
     {
         "id": 2,
         "title": "Pokédex",
         "src": "images/projects/js/my-pokedex.webp",
         "stack": "HTML | JS | Tailwind | React | Redux | API",
-        "paragraph": "O objetivo desse projeto é realizar o desafio técnico final do módulo de React do curso DevQuest. Criei 3 páginas: Home - Com uma apresentação simples do que é Pokémon. Pokedex - Onde apresento um input para filtragem por nome, os cards de apresentação dos pokemons. Perfil do pokemon - Onde apresento suas informações.",
+        "paragraph": "O objetivo desse projeto é criar 3 páginas: Home - Com uma apresentação simples do que é Pokémon. Pokedex - Onde apresento um input para filtragem por nome, os cards de apresentação dos pokemons. Perfil do pokemon - Onde apresento suas informações.",
         "vercelLink": "https://my-pokedex-gamma.vercel.app"
     },
     {
         "id": 3,
-        "title": "My Best Photografies",
-        "src": "images/projects/ts/my-photos.webp",
-        "stack": "HTML | TS | React | Tailwind | Vitest",
-        "paragraph": "Um projeto simples, para apresentação de minhas fotos pessoais e autorais. Mostrando looks de roupa e poses. Neste projeto, o realizei com o intuito de praticar testes unitários. Os quais não consegui realizar com jest, mas sim com a ajuda do Framework 'Vitest'.",
-        "vercelLink": "https://photos-portfolio-nu.vercel.app"
+        "title": "Dev Burguer",
+        "src": "images/projects/js/dev-burguer.webp",
+        "stack": "HTML | JS | Tailwind | React | Redux",
+        "paragraph": "Uma Landing Page de uma simples e-commerce de uma hamburgueria. Usar da boa prática no códio jsx e na sua estilização com tailwindocss. A princípio era para práticar a estilização com o tailwind, mas ao criar os com produtos em sua vitrine, me desafiei á adicionar cada um dos produtos, clicando no seu botão, ao carrinho.",
+        "vercelLink": "https://dev-burguer-phi.vercel.app"
     }
 ]

@@ -16,9 +16,10 @@ export function ProjectDetails({details}: ProjectDetailsProps){
             <div className="ProjectDetails_card_infos">
                 <img src={details.src} alt={details.title} />
                 <div className="ProjectDetails_card_info">
+                    <h2 className="ProjectDetails_card_info_title">{details.title}</h2>
                     <p className="ProjectDetails_card_info_p">{details.paragraph}</p>
                     <p className="ProjectDetails_card_info_stack">Stack: <span>{details.stack}</span></p>
-                    <a href={details.vercelLink} target="_blank" className="ProjectDetails_card_infos_link">Vercel Page</a>
+                    <a href={details.vercelLink} target="_blank" className="ProjectDetails_card_infos_link" aria-label={details.title}>Vercel Page</a>
                 </div>
             </div>
         </section>

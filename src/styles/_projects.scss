@@ -16,9 +16,10 @@
 }
 
 .projects_content_list {
-    width: 100%;
-    @include displayFlex(row, center, center);
+    @include displayFlex(row, space-evenly, center);
+    gap: 1rem;
     flex-wrap: wrap;
+    width: 100%;
     & li{
         @include displayFlex(column, center, center);
     }
@@ -29,8 +30,8 @@
 
 //Projec Details
 .ProjectDetails_card {
-    width: 44rem;
-    height: 54rem;
+    min-width: 44rem;
+    min-height: 54rem;
     padding: 2rem;
     & .ProjectDetails_card_infos {
         @include displayFlex(column, center, center);
@@ -68,6 +69,11 @@
     .ProjectDetails_card_info_p {
         font-size: 1.6rem;
         color: var(--terciary-color);
+    }
+
+    & .ProjectDetails_card_info_title{
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
     }
 
     & span {
