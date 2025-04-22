@@ -1,24 +1,26 @@
-# Logs
-logs
+# Arquivos de teste
+src/tests/
+*.spec.ts
+*.spec.tsx
+
+# Arquivos de compilação
+dist/
+build/
+.vite/
+
+# Dependências
+node_modules/
+
+# Ambiente e config locais
+.env.local
+.env.*
+.vscode/
+.idea/
+
+# Cache de ferramentas
+coverage/
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+*.tsbuildinfo
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Outras coisas comuns
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
