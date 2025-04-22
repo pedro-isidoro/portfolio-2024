@@ -1,9 +1,11 @@
-import { FaGitAlt, FaGithub , FaHtml5, FaCss3Alt, FaJs, FaReact, FaSass  } from "react-icons/fa";
+import { FaGitAlt, FaGithub, FaHtml5, FaCss3Alt, FaJs, FaReact, FaSass  } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiStyledcomponents, SiReactrouter, SiRedux, SiVitest, SiTestinglibrary } from "react-icons/si";
+
+import { SiStyledcomponents, SiReactrouter, SiRedux, SiVitest, SiTestinglibrary, SiChakraui } from "react-icons/si";
 import { BsClipboard2Fill } from "react-icons/bs";
 import { BiLogoTypescript } from "react-icons/bi";
 import { TbBrandCSharp } from "react-icons/tb";
+
 import { GsapFunction } from "@/components/ts/GsapFunction";
 
 export function Skills(){
@@ -29,6 +31,7 @@ export function Skills(){
                     <li className="about_texts_hardSkill"><FaSass/><p>Sass</p></li>
                     <li className="about_texts_hardSkill"><SiVitest /><p>Vitest</p></li>
                     <li className="about_texts_hardSkill"><SiTestinglibrary/><p>Testing<br/>Library</p></li>
+                    <li className="about_texts_hardSkill"><SiChakraui /><p>Chakra<br/>UI</p></li>
                     <li className="about_texts_hardSkill"><TbBrandCSharp/><p>C Sharp</p></li>
                 </ul>
             </div>
