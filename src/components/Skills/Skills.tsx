@@ -3,6 +3,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiStyledcomponents, SiReactrouter, SiRedux, SiVitest, SiTestinglibrary } from "react-icons/si";
 import { BsClipboard2Fill } from "react-icons/bs";
 import { BiLogoTypescript } from "react-icons/bi";
+import { TbBrandCSharp } from "react-icons/tb";
 import { GsapFunction } from "@/components/ts/GsapFunction";
 
 export function Skills(){
@@ -27,7 +28,8 @@ export function Skills(){
                     <li className="about_texts_hardSkill"><BiLogoTypescript/><p>Typescript</p></li>
                     <li className="about_texts_hardSkill"><FaSass/><p>Sass</p></li>
                     <li className="about_texts_hardSkill"><SiVitest /><p>Vitest</p></li>
-                    <li className="about_texts_hardSkill"><SiTestinglibrary  /><p>Testing<br/>Library</p></li>
+                    <li className="about_texts_hardSkill"><SiTestinglibrary/><p>Testing<br/>Library</p></li>
+                    <li className="about_texts_hardSkill"><TbBrandCSharp/><p>C Sharp</p></li>
                 </ul>
             </div>
         </section>

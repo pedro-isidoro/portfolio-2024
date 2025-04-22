@@ -119,7 +119,7 @@ export function Contact(){
                             </div>
                         </div>
                         <div className="register">
-                            <button id="btn-send" type="submit">Cadastrar</button>
+                            <button id="btn-send" type="submit">Enviar</button>
                         </div>
                     </form>
                 )}
